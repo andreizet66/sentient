@@ -25,3 +25,9 @@ Thumbs.db
 
 # --- Local data ---
 settings.json
+
+# --- HDD Sentinel data ---
+latest_xml/*
+!latest_xml/.gitkeep
+latest_xml/latest.xml
+latest_xml/latest.xml.bak
