@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<Hard_Disk_Sentinel>
+  <General_Information>
+    <Application_Information>
+      <Installed_version>Hard Disk Sentinel 6.20 PRO</Installed_version>
+      <Registered_to>PhoenixBBS</Registered_to>
+      <Current_Date_And_Time>07.11.2025 18:15:14</Current_Date_And_Time>
+      <Health_calculation_method>Analyse data field (default)</Health_calculation_method>
+      <UUID>{51B8CECB-C65D-4B8F-A8C0-99BAD3754F77}</UUID>
+      <Report_Creation_Time>0,814 s</Report_Creation_Time>
+    </Application_Information>
+    <Computer_Information>
+      <Computer_Name>HELIOS</Computer_Name>
+      <User_Name>andre</User_Name>
+      <Computer_Type>Desktop</Computer_Type>
+      <IP_Address>192.168.56.1,172.19.192.1,172.19.160.1,192.168.1.2,100.88.77.66</IP_Address>
+      <MAC_Address>04-0E-3C-C4-A8-0A</MAC_Address>
+      <System_Uptime>6 days, 5 hours, 27 minutes, 11 seconds</System_Uptime>
+      <System_Idle_Time>0 days, 0 hours, 0 minutes, 23 seconds</System_Idle_Time>
+      <System_Up_Since>01.11.2025 12:48:03</System_Up_Since>
+      <CPU_Usage>CPU #1: 60 %, CPU #2: 64 %, CPU #3: 64 %, CPU #4: 60 %, CPU #5: 63 %, CPU #6: 66 %</CPU_Usage>
+      <Virtual_Memory>26160 MB, Used: 18485 MB (71 %)</Virtual_Memory>
+    </Computer_Information>
+    <System_Information>
+      <Windows_Version>Windows 11 Pro 25H2  [6.3]</Windows_Version>
+      <CPU_Type_Speed_1>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_1>
+      <CPU_Type_Speed_2>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_2>
+      <CPU_Type_Speed_3>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_3>
+      <CPU_Type_Speed_4>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_4>
+      <CPU_Type_Speed_5>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_5>
+      <CPU_Type_Speed_6>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_6>
+      <BIOS_Manufacturer>HPQOEM - 0 R22 Ver. 02.23.00 HP - 21700  </BIOS_Manufacturer>
+      <Physical_Memory_Size>16158 MB, Used: 11993 MB (74 %)</Physical_Memory_Size>
+      <Display_Adapter>Intel(R) UHD Graphics 630</Display_Adapter>
+      <Display_Resolution>1710 x 1072 (32 bit)</Display_Resolution>
+      <Printer_1>Feliciprint (redirected 4)</Printer_1>
+      <Printer_2>Microsoft Print to PDF</Printer_2>
+      <Network_Controller>Intel(R) Ethernet Connection (7) I219-LM</Network_Controller>
+      <Optical_Drive></Optical_Drive>
+    </System_Information>
+    <PCI_Device_Information>
+      <PCI_bus_0_device_2_function_0>Intel(R) UHD Graphics 630</PCI_bus_0_device_2_function_0>
+      <PCI_bus_0_device_20_function_0>%1 USB %2 eXtensible Host Controller - %3 (Microsoft);(Intel(R),3.1,1.10)</PCI_bus_0_device_20_function_0>
+      <PCI_bus_0_device_22_function_0>Intel(R) Management Engine Interface #1</PCI_bus_0_device_22_function_0>
+      <PCI_bus_0_device_22_function_3>Intel(R) Active Management Technology - SOL (COM3)</PCI_bus_0_device_22_function_3>
+      <PCI_bus_0_device_23_function_0>Standard SATA AHCI Controller</PCI_bus_0_device_23_function_0>
+      <PCI_bus_0_device_27_function_0>Intel(R) PCI Express Root Port #21 - A32C</PCI_bus_0_device_27_function_0>
+      <PCI_bus_0_device_31_function_3>High Definition Audio Controller</PCI_bus_0_device_31_function_3>
+      <PCI_bus_0_device_31_function_6>Intel(R) Ethernet Connection (7) I219-LM</PCI_bus_0_device_31_function_6>
+      <PCI_bus_1_device_0_function_0>Standard NVM Express Controller</PCI_bus_1_device_0_function_0>
+  <Errors>
+  NumOfDrives: 7 //
+    0: NONE - SCSI 01 (764)   RS:F DE:0 IS:0  RS:F DE:0 IS:0  RS:F DE:0 IS:0  T: 109 ms, IDR1 IDR2  Time:  ATAIDR1:43 ATAIDR2:41 SCSI:24 //
+    1: NONE - USB/ATA T: 507 ms, Time:  USB/ATA:506 //
+    2: NONE - USB/ATA T: 35 ms, Time:  USB/ATA:35 //
+    3: NONE - USB/ATA T: 56 ms, Time:  USB/ATA:54 //
+    4: NONE - USB/ATA T: 16 ms, Time:  USB/ATA:16 //
+    5: NONE - SCSI 01 (2004)   RS:F DE:0 IS:0  RS INQF:87 BUT:16 ABO T: 87 ms, IDR1 IDR2  Time:  ATAIDR1:43 ATAIDR2:41 SCSI:0 //
+    6: NONE - USB/ATA T: 12 ms, Time:  USB/ATA:12 //
+    100: , Time: //
+    101: , Time: //
+    102: , Time: //
+    103: , Time: //
+    104: , Time: //
+    105: , Time: //
+    106: , Time: //
+    107: , Time: //
+    108: , Time: //
+    109: , Time: //
+    110: , Time: //
+    111: , Time: //
+    112: , Time: //
+    113: , Time: //
+    114: , Time: //
+    115: , Time: //
+    116: , Time: //
+    117: , Time: //
+    118: , Time: //
+    119: , Time: //
+    120: , Time: //
+    121: , Time: //
+    122: , Time: //
+    123: , Time: //
+    124: , Time: //
+    125: , Time: //
+    126: , Time: //
+    127: , Time: //
+    128: , Time: //
+    129: , Time: //
+    130: , Time: //
+    131: , Time: //
+    132: , Time: //
+    133: , Time: //
+    134: , Time: //
+    135: , Time: //
+    136: , Time: //
+    137: , Time: //
+    138: , Time: //
+    139: , Time: //
+    140: , Time: //
+    141: , Time: //
+    142: , Time: //
+    143: , Time: //
+    144: , Time: //
+    145: , Time: //
+    146: , Time: //
+    147: , Time: //
+    148: , Time: //
+    149: , Time: //
+    150: , Time: //
+    151: , Time: //
+    152: , Time: //
+    153: , Time: //
+    154: , Time: //
+    155: , Time: //
+    156: , Time: //
+    157: , Time: //
+    158: , Time: //
+    159: , Time: //
+    160: , Time: //
+    161: , Time: //
+    162: , Time: //
+    163: , Time: //
+    164: , Time: //
+    165: , Time: //
+    166: , Time: //
+    167: , Time: //
+    168: , Time: //
+    169: , Time: //
+    170: , Time: //
+    171: , Time: //
+    172: , Time: //
+    173: , Time: //
+    174: , Time: //
+    175: , Time: //
+    176: , Time: //
+    177: , Time: //
+    178: , Time: //
+    179: , Time: //
+    180: , Time: //
+    181: , Time: //
+    182: , Time: //
+    183: , Time: //
+    184: , Time: //
+    185: , Time: //
+    186: , Time: //
+    187: , Time: //
+    188: , Time: //
+    189: , Time: //
+    190: , Time: //
+    191: , Time: //
+    192: , Time: //
+    193: , Time: //
+    194: , Time: //
+    195: , Time: //
+    196: , Time: //
+    197: , Time: //
+    198: , Time: //
+    199: , Time: //
+    200: , Time: //
+    201: , Time: //
+    202: , Time: //
+    203: , Time: //
+    204: , Time: //
+    205: , Time: //
+    206: , Time: //
+    207: , Time: //
+    208: , Time: //
+    209: , Time: //
+    210: , Time: //
+    211: , Time: //
+    212: , Time: //
+    213: , Time: //
+    214: , Time: //
+    215: , Time: //
+    216: , Time: //
+    217: , Time: //
+    218: , Time: //
+    219: , Time: //
+    220: , Time: //
+    221: , Time: //
+    222: , Time: //
+    223: , Time: //
+    224: , Time: //
+    225: , Time: //
+    226: , Time: //
+    227: , Time: //
+    228: , Time: //
+    229: , Time: //
+    230: , Time: //
+    231: , Time: //
+    232: , Time: //
+    233: , Time: //
+    234: , Time: //
+    235: , Time: //
+    236: , Time: //
+    237: , Time: //
+    238: , Time: //
+  </Errors>
+    </PCI_Device_Information>
+  </General_Information>
+  <Physical_Disk_Information_Disk_0>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>0</Hard_Disk_Number>
+      <Interface>NVMe</Interface>
+      <Disk_Controller>Standard NVM Express Controller (NVMe) [VEN: 1344, DEV: 5410] Version: 10.0.26100.6725, 6-21-2006</Disk_Controller>
+      <Disk_Location>Bus Number 0, Target Id 0, LUN 0, Device: 20</Disk_Location>
+      <Hard_Disk_Model_ID>MTFDHBA256TCK-1AS1AABHA</Hard_Disk_Model_ID>
+      <Firmware_Revision>HPS0V23</Firmware_Revision>
+      <Hard_Disk_Serial_Number>UHPVN0153CRG1E</Hard_Disk_Serial_Number>
+      <Total_Size>244191 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <Device_Type>Fixed Disk</Device_Type>
+      <Logical_Drive_s>C: [] </Logical_Drive_s>
+      <Current_Temperature>64 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>80 °C, 31.10.2025 19:22:22</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>38 °C, 25.10.2025 11:10:13</Minimum_Temperature_ever_measured>
+      <Daily_Average>63,74 °C</Daily_Average>
+      <Daily_Maximum>64 °C</Daily_Maximum>
+      <Power_on_time>14 days, 9 hours</Power_on_time>
+      <Estimated_remaining_lifetime>862 days</Estimated_remaining_lifetime>
+      <Lifetime_writes>3,23 TB</Lifetime_writes>
+      <Health>69 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.  The health is determined by SSD specific S.M.A.R.T. attribute(s):  Available Spare (Percent), Percentage Used The TRIM feature of the SSD is supported and enabled for optimal performance.</Description>
+      <Tip>It is recommended to continuously monitor the hard disk status.</Tip>
+    </Hard_Disk_Summary>
+    <Properties>
+      <NVMe_Standard_Version>1.2</NVMe_Standard_Version>
+      <PCI_Vendor_ID_VID>0x1344</PCI_Vendor_ID_VID>
+      <PCI_Subsystem_Vendor_ID_SSVID>0x1344</PCI_Subsystem_Vendor_ID_SSVID>
+      <IEEE_OUI_Identifier>75-A0-00</IEEE_OUI_Identifier>
+      <Recommended_Arbitration_Burst_RAB>0</Recommended_Arbitration_Burst_RAB>
+      <Multi_Interface_Capabilities>0</Multi_Interface_Capabilities>
+      <Maximum_Data_Transfer_Size>128 (7)</Maximum_Data_Transfer_Size>
+      <Abort_Command_Limit>4</Abort_Command_Limit>
+      <Asynchronous_Event_Request_Limit>8</Asynchronous_Event_Request_Limit>
+      <Number_FW_Slots_Support>1</Number_FW_Slots_Support>
+      <Maximum_Error_Log_Page_Entries>256</Maximum_Error_Log_Page_Entries>
+      <Total_Number_Of_Power_States>5</Total_Number_Of_Power_States>
+      <Admin_Vendor_Specific_CMD_Format>1</Admin_Vendor_Specific_CMD_Format>
+      <Submission_Queue_Entry_Size>Max: 64, Min: 64</Submission_Queue_Entry_Size>
+      <Completion_Queue_Entry_Size>Max: 16, Min: 16</Completion_Queue_Entry_Size>
+      <Number_of_Namespaces>1</Number_of_Namespaces>
+      <Stripe_Size>0</Stripe_Size>
+      <Highest_Possible_Transfer_Rate>PCIe 3.0 x4</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>PCIe 3.0 x4</Negotiated_Transfer_Rate>
+      <Maximum_Power_mW>8250</Maximum_Power_mW>
+    </Properties>
+    <NVMe_Features>
+      <Doorbell_Buffer_Config>Not supported [0]</Doorbell_Buffer_Config>
+      <Virtualization_Management>Not supported [0]</Virtualization_Management>
+      <NVMe_MI_Send_Receive>Not supported [0]</NVMe_MI_Send_Receive>
+      <Directives>Not supported [0]</Directives>
+      <Device_Self_test>Supported [1]</Device_Self_test>
+      <Extended_Self_test_Estimated_Time>15 minutes</Extended_Self_test_Estimated_Time>
+      <Only_One_Device_Self_test>Yes</Only_One_Device_Self_test>
+      <Namespace_Management>Not supported [0]</Namespace_Management>
+      <Firmware_Activate_Download>Supported [1]</Firmware_Activate_Download>
+      <Format_NVM>Supported [1]</Format_NVM>
+      <Security_Send_Receive>Supported [1]</Security_Send_Receive>
+      <Firmware_Activation_Without_Reset>Not supported [0]</Firmware_Activation_Without_Reset>
+      <First_Firmware_Slot_Read_Only>No</First_Firmware_Slot_Read_Only>
+      <Command_Effects_Log_Page>Supported [1]</Command_Effects_Log_Page>
+      <SMART_Information_Per_Namespace>Supported [1]</SMART_Information_Per_Namespace>
+      <Reservations>Not supported [0]</Reservations>
+      <Save_Select_Fields>Supported [1]</Save_Select_Fields>
+      <Write_Zeroes>Not supported [0]</Write_Zeroes>
+      <Dataset_Management_Command>Supported [1]</Dataset_Management_Command>
+      <Write_Uncorrectable_Command>Supported [1]</Write_Uncorrectable_Command>
+      <Compare_Command>Supported [1]</Compare_Command>
+      <Compare_and_Write_Fused_Operation>Not supported [0]</Compare_and_Write_Fused_Operation>
+      <Cryptographic_Erase>Not supported [0]</Cryptographic_Erase>
+      <Secure_Erase_All_Namespaces>Supported [1]</Secure_Erase_All_Namespaces>
+      <Format_All_Namespaces>Supported [1]</Format_All_Namespaces>
+      <Volatile_Write_Cache_Present>Supported [1]</Volatile_Write_Cache_Present>
+      <Autonomous_Power_State_Transitions>Supported [1]</Autonomous_Power_State_Transitions>
+      <Atomic_Compare_And_Write_Unit>Not supported [0]</Atomic_Compare_And_Write_Unit>
+      <Scatter_Gather_List_SGL>Not supported [0]</Scatter_Gather_List_SGL>
+      <Host_Controlled_Thermal_Management>Supported [1]</Host_Controlled_Thermal_Management>
+      <Thermal_Management_Temperature_1>273 °K (-1 °C)</Thermal_Management_Temperature_1>
+      <Thermal_Management_Temperature_2>358 °K (85 °C)</Thermal_Management_Temperature_2>
+      <Warning_Composite_Temperature_Threshold>355 °K (82 °C)</Warning_Composite_Temperature_Threshold>
+      <Critical_Composite_Temperature_Threshold>358 °K (85 °C)</Critical_Composite_Temperature_Threshold>
+      <Sanitize_Overwrite>Not supported [0]</Sanitize_Overwrite>
+      <Sanitize_Block_Erase>Not supported [0]</Sanitize_Block_Erase>
+      <Sanitize_Crypto_Erase>Not supported [0]</Sanitize_Crypto_Erase>
+    </NVMe_Features>
+    <NVMe_Namespace_Information>
+      <NS_1_Total_Sectors>500118192</NS_1_Total_Sectors>
+      <NS_1_Bytes_Per_Sector>512</NS_1_Bytes_Per_Sector>
+      <NS_1_Active_LBA_Format_Index>0</NS_1_Active_LBA_Format_Index>
+      <NS_1_LBA_Formats_Supported>1</NS_1_LBA_Formats_Supported>
+      <NS_1_LBA_Format_List_Disk_Performance>512 (Best)</NS_1_LBA_Format_List_Disk_Performance>
+    </NVMe_Namespace_Information>
+    <Disk_Information>
+      <Disk_Information></Disk_Information>
+      <Form_Factor>M.2 2280</Form_Factor>
+      <Capacity>256 GB (256 x 1.000.000.000 bytes)</Capacity>
+      <SSD_Controller>Micron</SSD_Controller>
+      <Disk_Interface>PCI-Express x4 (3.0)</Disk_Interface>
+      <Device_Type>Micron 64-layer 3D TLC NAND</Device_Type>
+    </Disk_Information>
+    <S.M.A.R.T.>
+<Attribute Name="Critical Warning" Threshold="" Value="0" />
+<Attribute Name="Composite Temperature (Kelvin)" Threshold="" Value="337" />
+<Attribute Name="Available Spare (Percent)" Threshold="" Value="100" />
+<Attribute Name="Available Spare Threshold" Threshold="" Value="5" />
+<Attribute Name="Percentage Used" Threshold="" Value="31" />
+<Attribute Name="Data Units Read (512000 Bytes)" Threshold="" Value="9.850.252" />
+<Attribute Name="Data Units Written (512000 Bytes)" Threshold="" Value="6.929.996" />
+<Attribute Name="Host Read Commands" Threshold="" Value="89.674.118" />
+<Attribute Name="Host Write Commands" Threshold="" Value="149.416.852" />
+<Attribute Name="Controller Busy Time (minutes)" Threshold="" Value="3.089" />
+<Attribute Name="Power Cycles" Threshold="" Value="182" />
+<Attribute Name="Power On Hours" Threshold="" Value="345" />
+<Attribute Name="Unsafe Shutdowns" Threshold="" Value="109" />
+<Attribute Name="Media and Data Integrity Errors" Threshold="" Value="0" />
+<Attribute Name="Number of Error Information Log Entries" Threshold="" Value="151" />
+<Attribute Name="Warning Composite Temperature Time (minutes)" Threshold="" Value="0" />
+<Attribute Name="Critical Composite Temperature Time (minutes)" Threshold="" Value="0" />
+<Attribute Name="Temperature Sensor 1" Threshold="" Value="337" />
+<Attribute Name="Temperature Sensor 2" Threshold="" Value="341" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>45.058 MB,  1.021.978 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>60.236 MB,  1.222.736 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>72.998,43 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>87.338,29 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>490 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>605190 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>4 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>486 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>2 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_0>
+  <Physical_Disk_Information_Disk_1>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>1</Hard_Disk_Number>
+      <Interface>USB Attached SCSI (UASP) SAT Standard USB/ATA</Interface>
+      <Vendor_Information>VID: 152D, PID: A580</Vendor_Information>
+      <Version>USB 3.x @ 2.0</Version>
+      <Disk_Controller>Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft) (USB 3.0, v2.10) [VEN: 8086, DEV: A36D] Version: 10.0.26100.6725, 9-25-2025</Disk_Controller>
+      <Hard_Disk_Model_ID>ST1000LM035-1RK172</Hard_Disk_Model_ID>
+      <Firmware_Revision>EB01</Firmware_Revision>
+      <Hard_Disk_Serial_Number>ZDEL3EDH</Hard_Disk_Serial_Number>
+      <Total_Size>953867 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <USB_Device_Name>USB Mass Storage</USB_Device_Name>
+      <Device_Type>Removable, surprise remove possible</Device_Type>
+      <Logical_Drive_s>D: [Seagate 1 TB] </Logical_Drive_s>
+      <Current_Temperature>23 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>35 °C, 01.11.2025 02:00:03</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>22 °C, 07.11.2025 05:15:01</Minimum_Temperature_ever_measured>
+      <Maximum_Temperature_during_entire_lifespan>52 °C</Maximum_Temperature_during_entire_lifespan>
+      <Daily_Average>22,50 °C</Daily_Average>
+      <Daily_Maximum>23 °C</Daily_Maximum>
+      <Power_on_time>641 days, 1 hours</Power_on_time>
+      <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
+      <Health>100 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>1938021</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ACS-3 Revision 3b</ATA_Revision>
+      <Transport_Version>SATA Rev 3.1</Transport_Version>
+      <Total_Sectors>244190646</Total_Sectors>
+      <Bytes_Per_Sector>4096 [Advanced Format]</Bytes_Per_Sector>
+      <Multiple_Sectors>16</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>953870 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Balanced performance and volume (D0h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Balanced performance and volume (D0h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Supported [1]</Host_Protected_Area>
+      <HPA_Security_Extensions>Supported [1]</HPA_Security_Extensions>
+      <Advanced_Power_Management>Supported [1], Enabled</Advanced_Power_Management>
+      <Advanced_Power_Management_Level>Minimum power consumption without standby (128)</Advanced_Power_Management_Level>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Supported [1]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Supported [1]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Not supported [0]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>5000C500C76B4A82</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_8>Supported [1]</Long_Physical_Sectors_8>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Supported [1], Disabled</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Service_Interrupt>Not supported [0]</Service_Interrupt>
+      <IDLE_IMMEDIATE_command_with_UNLOAD_feature>Supported [1]</IDLE_IMMEDIATE_command_with_UNLOAD_feature>
+      <Zoned_Capabilities>Not supported [0]</Zoned_Capabilities>
+      <SCT_Command_Transport>Supported [1]</SCT_Command_Transport>
+      <SCT_Error_Recovery_Control>Not supported [0]</SCT_Error_Recovery_Control>
+      <Nominal_Media_Rotation_Rate>5400 RPM</Nominal_Media_Rotation_Rate>
+      <Nominal_Form_Factor>2.5 inch</Nominal_Form_Factor>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Supported [1]</Data_Set_Management>
+      <TRIM_Command>Supported [1]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Not supported [0]</Deterministic_Read_After_TRIM>
+      <Read_Zeroes_After_TRIM>Not supported [0]</Read_Zeroes_After_TRIM>
+      <Operating_System_TRIM_Function>Supported [1], Enabled</Operating_System_TRIM_Function>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Never Started</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>0 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Not supported [0]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Supported [1]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Supported [1]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>1 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>163 minutes</Extended_Self_test_Estimated_Time>
+      <Conveyance_self_test_estimated_time>2 minutes</Conveyance_self_test_estimated_time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+      <Last_Conveyance_Self_test_Result>Never Started</Last_Conveyance_Self_test_Result>
+      <Last_Conveyance_Self_test_Date>Never Started</Last_Conveyance_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>164 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>164 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>No</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+      <Device_Encrypts_All_User_Data>No</Device_Encrypts_All_User_Data>
+      <Sanitize>Not supported [0]</Sanitize>
+      <Overwrite>Not supported [0]</Overwrite>
+      <Crypto_Scramble>Not supported [0]</Crypto_Scramble>
+      <Block_Erase>Not supported [0]</Block_Erase>
+      <Sanitize_Antifreeze_Lock>Not supported [0]</Sanitize_Antifreeze_Lock>
+      <ACS_3_Commands_Allowed_By_Sanitize>No</ACS_3_Commands_Allowed_By_Sanitize>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Supported [1]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Supported [1], Disabled</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+      <NCQ_Streaming>Not supported [0]</NCQ_Streaming>
+      <NCQ_Autosense>Not supported [0]</NCQ_Autosense>
+      <Automatic_Partial_to_Slumber_Translations>Not supported [0]</Automatic_Partial_to_Slumber_Translations>
+      <Rebuild_Assist>Not supported [0]</Rebuild_Assist>
+      <Hybrid_Information>Not supported [0]</Hybrid_Information>
+      <Device_Sleep_DevSleep>Not supported [0]</Device_Sleep_DevSleep>
+      <DevSleep_to_ReducedPwrState>Not supported [0]</DevSleep_to_ReducedPwrState>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Family>Mobile HDD 1000LM035</Disk_Family>
+      <Form_Factor>2.5" </Form_Factor>
+      <Capacity>1 TB (1 x 1.000.000.000.000 bytes)</Capacity>
+      <Number_Of_Disks>1</Number_Of_Disks>
+      <Number_Of_Heads>2</Number_Of_Heads>
+      <Rotational_Speed>5400 RPM</Rotational_Speed>
+      <Rotation_Time>11,11 ms</Rotation_Time>
+      <Average_Rotational_Latency>5,56 ms</Average_Rotational_Latency>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Buffer_Host_Max._Rate>600 MB/seconds</Buffer_Host_Max._Rate>
+      <Buffer_Size>131072 KB</Buffer_Size>
+      <Drive_Ready_Time_typical>? seconds</Drive_Ready_Time_typical>
+      <Average_Seek_Time>13,0 ms</Average_Seek_Time>
+      <Track_To_Track_Seek_Time>? ms</Track_To_Track_Seek_Time>
+      <Full_Stroke_Seek_Time>? ms</Full_Stroke_Seek_Time>
+      <Width>69,9 mm (2,8 inch)</Width>
+      <Depth>100,4 mm (4,0 inch)</Depth>
+      <Height>7,0 mm (0,3 inch)</Height>
+      <Weight>90 grams (0,2 pounds)</Weight>
+      <Acoustic_Idle>2,3 Bel</Acoustic_Idle>
+      <Acoustic_Min_performance_and_volume>2,5 Bel</Acoustic_Min_performance_and_volume>
+      <Acoustic_Max_performance_and_volume>3,0 Bel</Acoustic_Max_performance_and_volume>
+      <Required_power_for_spinup>1.200 mA</Required_power_for_spinup>
+      <Power_required_seek>2,4 W</Power_required_seek>
+      <Power_required_idle>1,2 W</Power_required_idle>
+      <Power_required_standby>0,4 W</Power_required_standby>
+      <Manufacturer>Seagate Technology</Manufacturer>
+      <Manufacturer_Website>http://www.seagate.com/www/en-us/products</Manufacturer_Website>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="6" Value="81" Worst="64" Data="000007AA130A" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="0" Value="99" Worst="99" Data="000000000000" Status="OK (Always passing)" Flags="Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="20" Value="98" Worst="98" Data="00000000082E" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="36" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
+      <Attribute ID="7" Name="Seek Error Rate" Threshold="45" Value="78" Worst="60" Data="000103638408" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="83" Worst="83" Data="AB6300003C19" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="10" Name="Spin Retry Count" Threshold="97" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Event Count, Statistical, Critical" />
+      <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="20" Value="100" Worst="100" Data="0000000001AF" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="184" Name="End-to-End Error Count" Threshold="99" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="187" Name="Reported Uncorrectable Errors" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="188" Name="Command Timeout" Threshold="0" Value="100" Worst="99" Data="000B000B002C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="189" Name="High Fly Writes" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Error-Rate, Statistical" />
+      <Attribute ID="190" Name="Airflow Temperature" Threshold="40" Value="77" Worst="48" Data="00001D160017" Status="OK" Flags="Self Preserving, Statistical" />
+      <Attribute ID="191" Name="G-Sense Error Rate" Threshold="0" Value="100" Worst="100" Data="000000000011" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="100" Worst="100" Data="00000000008C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="90" Worst="90" Data="0000000052F1" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="23" Worst="52" Data="001100000017" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
+      <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Event Count, Statistical" />
+      <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Event Count" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Error-Rate, Performance, Statistical" />
+      <Attribute ID="240" Name="Head Flying Hours" Threshold="0" Value="100" Worst="253" Data="B732000028F4" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="241" Name="Total LBA Written" Threshold="0" Value="100" Worst="253" Data="000738D53A35" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="242" Name="Total LBA Read" Threshold="0" Value="100" Worst="253" Data="000D4F4C9D27" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="254" Name="Free Fall Event Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>1 MB,  36 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>0 MB,  2 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>2,57 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>0,14 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>244 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>0 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>0 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_1>
+  <Physical_Disk_Information_Disk_2>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>2</Hard_Disk_Number>
+      <Interface>SAT Standard USB/ATA</Interface>
+      <Hard_Disk_Model_ID>WDC WD40EFPX-68C6CN0</Hard_Disk_Model_ID>
+      <Firmware_Revision>81.00A81</Firmware_Revision>
+      <Hard_Disk_Serial_Number>WD-WXA2D15L2LTD</Hard_Disk_Serial_Number>
+      <Total_Size>3815445 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <Current_Temperature>24 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>39 °C, 01.11.2025 01:50:03</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>22 °C, 25.10.2025 11:16:54</Minimum_Temperature_ever_measured>
+      <Daily_Average>24,00 °C</Daily_Average>
+      <Daily_Maximum>24 °C</Daily_Maximum>
+      <Power_on_time>49 days, 17 hours</Power_on_time>
+      <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
+      <Health>100 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>7752021</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ACS-3 Revision 5</ATA_Revision>
+      <Transport_Version>SATA Rev 3.1</Transport_Version>
+      <Total_Sectors>976754646</Total_Sectors>
+      <Bytes_Per_Sector>4096 [Advanced Format]</Bytes_Per_Sector>
+      <Multiple_Sectors>16</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>3815448 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Default (00h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Default (00h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Not supported [0]</Host_Protected_Area>
+      <HPA_Security_Extensions>Not supported [0]</HPA_Security_Extensions>
+      <Advanced_Power_Management>Not supported [0]</Advanced_Power_Management>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Not supported [0]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Not supported [0]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Not supported [0]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>50014EE216B97D91</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_8>Supported [1]</Long_Physical_Sectors_8>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Not supported [0]</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Service_Interrupt>Not supported [0]</Service_Interrupt>
+      <IDLE_IMMEDIATE_command_with_UNLOAD_feature>Supported [1]</IDLE_IMMEDIATE_command_with_UNLOAD_feature>
+      <Zoned_Capabilities>Not supported [0]</Zoned_Capabilities>
+      <SCT_Command_Transport>Supported [1]</SCT_Command_Transport>
+      <SCT_Error_Recovery_Control>Supported [1]</SCT_Error_Recovery_Control>
+      <Nominal_Media_Rotation_Rate>5400 RPM</Nominal_Media_Rotation_Rate>
+      <Nominal_Form_Factor>3.5 inch</Nominal_Form_Factor>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Not supported [0]</Data_Set_Management>
+      <TRIM_Command>Not supported [0]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Not supported [0]</Deterministic_Read_After_TRIM>
+      <Read_Zeroes_After_TRIM>Not supported [0]</Read_Zeroes_After_TRIM>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Successfully Completed</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>42000 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Supported [1]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Supported [1]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Supported [1]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>2 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>437 minutes</Extended_Self_test_Estimated_Time>
+      <Conveyance_self_test_estimated_time>5 minutes</Conveyance_self_test_estimated_time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+      <Last_Conveyance_Self_test_Result>Never Started</Last_Conveyance_Self_test_Result>
+      <Last_Conveyance_Self_test_Date>Never Started</Last_Conveyance_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>460 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>460 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>No</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+      <Device_Encrypts_All_User_Data>No</Device_Encrypts_All_User_Data>
+      <Sanitize>Not supported [0]</Sanitize>
+      <Overwrite>Not supported [0]</Overwrite>
+      <Crypto_Scramble>Not supported [0]</Crypto_Scramble>
+      <Block_Erase>Not supported [0]</Block_Erase>
+      <Sanitize_Antifreeze_Lock>Not supported [0]</Sanitize_Antifreeze_Lock>
+      <ACS_3_Commands_Allowed_By_Sanitize>No</ACS_3_Commands_Allowed_By_Sanitize>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Supported [1]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Not supported [0]</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+      <NCQ_Streaming>Not supported [0]</NCQ_Streaming>
+      <NCQ_Autosense>Not supported [0]</NCQ_Autosense>
+      <Automatic_Partial_to_Slumber_Translations>Not supported [0]</Automatic_Partial_to_Slumber_Translations>
+      <Rebuild_Assist>Not supported [0]</Rebuild_Assist>
+      <Hybrid_Information>Not supported [0]</Hybrid_Information>
+      <Device_Sleep_DevSleep>Not supported [0]</Device_Sleep_DevSleep>
+      <DevSleep_to_ReducedPwrState>Not supported [0]</DevSleep_to_ReducedPwrState>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Family>WD Red Plus CMR</Disk_Family>
+      <Form_Factor>3.5" </Form_Factor>
+      <Capacity>4 TB (4 x 1.000.000.000.000 bytes)</Capacity>
+      <Number_Of_Disks>?</Number_Of_Disks>
+      <Number_Of_Heads>?</Number_Of_Heads>
+      <Rotational_Speed>5400 RPM</Rotational_Speed>
+      <Rotation_Time>11,11 ms</Rotation_Time>
+      <Average_Rotational_Latency>5,56 ms</Average_Rotational_Latency>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Buffer_Host_Max._Rate>600 MB/seconds</Buffer_Host_Max._Rate>
+      <Buffer_Size>262144 KB</Buffer_Size>
+      <Drive_Ready_Time_typical>? seconds</Drive_Ready_Time_typical>
+      <Average_Seek_Time>? ms</Average_Seek_Time>
+      <Track_To_Track_Seek_Time>? ms</Track_To_Track_Seek_Time>
+      <Full_Stroke_Seek_Time>? ms</Full_Stroke_Seek_Time>
+      <Width>101,6 mm (4,0 inch)</Width>
+      <Depth>147,0 mm (5,8 inch)</Depth>
+      <Height>26,1 mm (1,0 inch)</Height>
+      <Weight>570 grams (1,3 pounds)</Weight>
+      <Acoustic_Idle>2,3 Bel</Acoustic_Idle>
+      <Acoustic_Min_performance_and_volume>2,7 Bel</Acoustic_Min_performance_and_volume>
+      <Acoustic_Max_performance_and_volume>2,7 Bel</Acoustic_Max_performance_and_volume>
+      <Required_power_for_spinup>1.750 mA</Required_power_for_spinup>
+      <Power_required_seek>4,7 W</Power_required_seek>
+      <Power_required_idle>3,1 W</Power_required_idle>
+      <Power_required_standby>0,3 W</Power_required_standby>
+      <Manufacturer>Western Digital Corporation</Manufacturer>
+      <Manufacturer_Website>http://www.westerndigital.com/en/products</Manufacturer_Website>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="51" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="213" Worst="208" Data="000000000904" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="00000000005E" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
+      <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="99" Worst="99" Data="0000000004A9" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000029" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="000000000012" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000DB" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="123" Worst="108" Data="000000000018" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
+      <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>76.233 MB,  76.830 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>1.571.511 MB,  1.736.157 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>5.487,86 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>124.011,21 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>1018 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>175862 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>1018 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>2 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_2>
+  <Physical_Disk_Information_Disk_3>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>3</Hard_Disk_Number>
+      <Interface>USB Attached SCSI (UASP) SAT Standard USB/ATA</Interface>
+      <Vendor_Information>VID: 152D, PID: A580</Vendor_Information>
+      <Version>USB 3.2 SuperSpeedPlus</Version>
+      <Disk_Controller>Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft) (USB 3.0) [VEN: 8086, DEV: A36D] Version: 10.0.26100.6725, 9-25-2025</Disk_Controller>
+      <Hard_Disk_Model_ID>WDC WD60EFPX-68C5ZN0</Hard_Disk_Model_ID>
+      <Firmware_Revision>81.00A81</Firmware_Revision>
+      <Hard_Disk_Serial_Number>WD-WX32D35AV0DJ</Hard_Disk_Serial_Number>
+      <Total_Size>5723164 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <USB_Device_Name>USB Mass Storage</USB_Device_Name>
+      <Device_Type>Removable, surprise remove possible</Device_Type>
+      <Logical_Drive_s>F: [WD_Red_6TB] </Logical_Drive_s>
+      <Current_Temperature>25 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>42 °C, 01.11.2025 02:00:04</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>24 °C, 07.11.2025 05:15:01</Minimum_Temperature_ever_measured>
+      <Daily_Average>25,00 °C</Daily_Average>
+      <Daily_Maximum>25 °C</Daily_Maximum>
+      <Power_on_time>7 days, 3 hours</Power_on_time>
+      <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
+      <Health>100 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>11628021</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ACS-3 Revision 5</ATA_Revision>
+      <Transport_Version>SATA Rev 3.1</Transport_Version>
+      <Total_Sectors>1465130646</Total_Sectors>
+      <Bytes_Per_Sector>4096 [Advanced Format]</Bytes_Per_Sector>
+      <Multiple_Sectors>16</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>5723167 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Default (00h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Default (00h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Not supported [0]</Host_Protected_Area>
+      <HPA_Security_Extensions>Not supported [0]</HPA_Security_Extensions>
+      <Advanced_Power_Management>Not supported [0]</Advanced_Power_Management>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Not supported [0]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Not supported [0]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Not supported [0]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>50014EE216C5D2C3</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_8>Supported [1]</Long_Physical_Sectors_8>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Not supported [0]</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Service_Interrupt>Not supported [0]</Service_Interrupt>
+      <IDLE_IMMEDIATE_command_with_UNLOAD_feature>Supported [1]</IDLE_IMMEDIATE_command_with_UNLOAD_feature>
+      <Zoned_Capabilities>Not supported [0]</Zoned_Capabilities>
+      <SCT_Command_Transport>Supported [1]</SCT_Command_Transport>
+      <SCT_Error_Recovery_Control>Supported [1]</SCT_Error_Recovery_Control>
+      <Nominal_Media_Rotation_Rate>5400 RPM</Nominal_Media_Rotation_Rate>
+      <Nominal_Form_Factor>3.5 inch</Nominal_Form_Factor>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Not supported [0]</Data_Set_Management>
+      <TRIM_Command>Not supported [0]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Not supported [0]</Deterministic_Read_After_TRIM>
+      <Read_Zeroes_After_TRIM>Not supported [0]</Read_Zeroes_After_TRIM>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Never Started</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>58740 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Supported [1]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Supported [1]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Supported [1]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>2 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>610 minutes</Extended_Self_test_Estimated_Time>
+      <Conveyance_self_test_estimated_time>5 minutes</Conveyance_self_test_estimated_time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+      <Last_Conveyance_Self_test_Result>Never Started</Last_Conveyance_Self_test_Result>
+      <Last_Conveyance_Self_test_Date>Never Started</Last_Conveyance_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>642 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>642 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>No</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+      <Device_Encrypts_All_User_Data>No</Device_Encrypts_All_User_Data>
+      <Sanitize>Not supported [0]</Sanitize>
+      <Overwrite>Not supported [0]</Overwrite>
+      <Crypto_Scramble>Not supported [0]</Crypto_Scramble>
+      <Block_Erase>Not supported [0]</Block_Erase>
+      <Sanitize_Antifreeze_Lock>Not supported [0]</Sanitize_Antifreeze_Lock>
+      <ACS_3_Commands_Allowed_By_Sanitize>No</ACS_3_Commands_Allowed_By_Sanitize>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Supported [1]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Not supported [0]</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+      <NCQ_Streaming>Not supported [0]</NCQ_Streaming>
+      <NCQ_Autosense>Not supported [0]</NCQ_Autosense>
+      <Automatic_Partial_to_Slumber_Translations>Not supported [0]</Automatic_Partial_to_Slumber_Translations>
+      <Rebuild_Assist>Not supported [0]</Rebuild_Assist>
+      <Hybrid_Information>Not supported [0]</Hybrid_Information>
+      <Device_Sleep_DevSleep>Not supported [0]</Device_Sleep_DevSleep>
+      <DevSleep_to_ReducedPwrState>Not supported [0]</DevSleep_to_ReducedPwrState>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Family>WD Red Plus CMR</Disk_Family>
+      <Form_Factor>3.5" </Form_Factor>
+      <Capacity>6 TB (6 x 1.000.000.000.000 bytes)</Capacity>
+      <Number_Of_Disks>?</Number_Of_Disks>
+      <Number_Of_Heads>?</Number_Of_Heads>
+      <Rotational_Speed>5400 RPM</Rotational_Speed>
+      <Rotation_Time>11,11 ms</Rotation_Time>
+      <Average_Rotational_Latency>5,56 ms</Average_Rotational_Latency>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Buffer_Host_Max._Rate>600 MB/seconds</Buffer_Host_Max._Rate>
+      <Buffer_Size>262144 KB</Buffer_Size>
+      <Drive_Ready_Time_typical>? seconds</Drive_Ready_Time_typical>
+      <Average_Seek_Time>? ms</Average_Seek_Time>
+      <Track_To_Track_Seek_Time>? ms</Track_To_Track_Seek_Time>
+      <Full_Stroke_Seek_Time>? ms</Full_Stroke_Seek_Time>
+      <Width>101,6 mm (4,0 inch)</Width>
+      <Depth>147,0 mm (5,8 inch)</Depth>
+      <Height>26,1 mm (1,0 inch)</Height>
+      <Weight>750 grams (1,7 pounds)</Weight>
+      <Acoustic_Idle>2,3 Bel</Acoustic_Idle>
+      <Acoustic_Min_performance_and_volume>2,7 Bel</Acoustic_Min_performance_and_volume>
+      <Acoustic_Max_performance_and_volume>2,7 Bel</Acoustic_Max_performance_and_volume>
+      <Required_power_for_spinup>1.750 mA</Required_power_for_spinup>
+      <Power_required_seek>4,7 W</Power_required_seek>
+      <Power_required_idle>3,1 W</Power_required_idle>
+      <Power_required_standby>0,3 W</Power_required_standby>
+      <Manufacturer>Western Digital Corporation</Manufacturer>
+      <Manufacturer_Website>http://www.westerndigital.com/en/products</Manufacturer_Website>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="51" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="232" Worst="227" Data="000000000D1E" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="000000000012" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
+      <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="0000000000AB" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000004" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="000000000069" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="125" Worst="108" Data="000000000019" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
+      <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>1 MB,  534 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>0 MB,  523 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>38,14 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>37,36 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>24 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>0 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>0 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_3>
+  <Physical_Disk_Information_Disk_4>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>4</Hard_Disk_Number>
+      <Interface>SAT Standard USB/ATA</Interface>
+      <Hard_Disk_Model_ID>WDC WD60EFPX-68C5ZN0</Hard_Disk_Model_ID>
+      <Firmware_Revision>81.00A81</Firmware_Revision>
+      <Hard_Disk_Serial_Number>WD-WX32D35A9Z3L</Hard_Disk_Serial_Number>
+      <Total_Size>5723164 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <Current_Temperature>25 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>43 °C, 28.10.2025 04:50:30</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>24 °C, 07.11.2025 07:15:02</Minimum_Temperature_ever_measured>
+      <Daily_Average>24,50 °C</Daily_Average>
+      <Daily_Maximum>25 °C</Daily_Maximum>
+      <Power_on_time>18 days, 1 hours</Power_on_time>
+      <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
+      <Health>100 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>11628021</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ACS-3 Revision 5</ATA_Revision>
+      <Transport_Version>SATA Rev 3.1</Transport_Version>
+      <Total_Sectors>1465130646</Total_Sectors>
+      <Bytes_Per_Sector>4096 [Advanced Format]</Bytes_Per_Sector>
+      <Multiple_Sectors>16</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>5723167 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Default (00h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Default (00h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Not supported [0]</Host_Protected_Area>
+      <HPA_Security_Extensions>Not supported [0]</HPA_Security_Extensions>
+      <Advanced_Power_Management>Not supported [0]</Advanced_Power_Management>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Not supported [0]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Not supported [0]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Not supported [0]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>50014EE2C1711503</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_8>Supported [1]</Long_Physical_Sectors_8>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Not supported [0]</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Service_Interrupt>Not supported [0]</Service_Interrupt>
+      <IDLE_IMMEDIATE_command_with_UNLOAD_feature>Supported [1]</IDLE_IMMEDIATE_command_with_UNLOAD_feature>
+      <Zoned_Capabilities>Not supported [0]</Zoned_Capabilities>
+      <SCT_Command_Transport>Supported [1]</SCT_Command_Transport>
+      <SCT_Error_Recovery_Control>Supported [1]</SCT_Error_Recovery_Control>
+      <Nominal_Media_Rotation_Rate>5400 RPM</Nominal_Media_Rotation_Rate>
+      <Nominal_Form_Factor>3.5 inch</Nominal_Form_Factor>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Not supported [0]</Data_Set_Management>
+      <TRIM_Command>Not supported [0]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Not supported [0]</Deterministic_Read_After_TRIM>
+      <Read_Zeroes_After_TRIM>Not supported [0]</Read_Zeroes_After_TRIM>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Never Started</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>58140 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Supported [1]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Supported [1]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Supported [1]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>2 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>604 minutes</Extended_Self_test_Estimated_Time>
+      <Conveyance_self_test_estimated_time>5 minutes</Conveyance_self_test_estimated_time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+      <Last_Conveyance_Self_test_Result>Never Started</Last_Conveyance_Self_test_Result>
+      <Last_Conveyance_Self_test_Date>Never Started</Last_Conveyance_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>636 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>636 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>No</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+      <Device_Encrypts_All_User_Data>No</Device_Encrypts_All_User_Data>
+      <Sanitize>Not supported [0]</Sanitize>
+      <Overwrite>Not supported [0]</Overwrite>
+      <Crypto_Scramble>Not supported [0]</Crypto_Scramble>
+      <Block_Erase>Not supported [0]</Block_Erase>
+      <Sanitize_Antifreeze_Lock>Not supported [0]</Sanitize_Antifreeze_Lock>
+      <ACS_3_Commands_Allowed_By_Sanitize>No</ACS_3_Commands_Allowed_By_Sanitize>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Supported [1]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Not supported [0]</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+      <NCQ_Streaming>Not supported [0]</NCQ_Streaming>
+      <NCQ_Autosense>Not supported [0]</NCQ_Autosense>
+      <Automatic_Partial_to_Slumber_Translations>Not supported [0]</Automatic_Partial_to_Slumber_Translations>
+      <Rebuild_Assist>Not supported [0]</Rebuild_Assist>
+      <Hybrid_Information>Not supported [0]</Hybrid_Information>
+      <Device_Sleep_DevSleep>Not supported [0]</Device_Sleep_DevSleep>
+      <DevSleep_to_ReducedPwrState>Not supported [0]</DevSleep_to_ReducedPwrState>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Family>WD Red Plus CMR</Disk_Family>
+      <Form_Factor>3.5" </Form_Factor>
+      <Capacity>6 TB (6 x 1.000.000.000.000 bytes)</Capacity>
+      <Number_Of_Disks>?</Number_Of_Disks>
+      <Number_Of_Heads>?</Number_Of_Heads>
+      <Rotational_Speed>5400 RPM</Rotational_Speed>
+      <Rotation_Time>11,11 ms</Rotation_Time>
+      <Average_Rotational_Latency>5,56 ms</Average_Rotational_Latency>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Buffer_Host_Max._Rate>600 MB/seconds</Buffer_Host_Max._Rate>
+      <Buffer_Size>262144 KB</Buffer_Size>
+      <Drive_Ready_Time_typical>? seconds</Drive_Ready_Time_typical>
+      <Average_Seek_Time>? ms</Average_Seek_Time>
+      <Track_To_Track_Seek_Time>? ms</Track_To_Track_Seek_Time>
+      <Full_Stroke_Seek_Time>? ms</Full_Stroke_Seek_Time>
+      <Width>101,6 mm (4,0 inch)</Width>
+      <Depth>147,0 mm (5,8 inch)</Depth>
+      <Height>26,1 mm (1,0 inch)</Height>
+      <Weight>750 grams (1,7 pounds)</Weight>
+      <Acoustic_Idle>2,3 Bel</Acoustic_Idle>
+      <Acoustic_Min_performance_and_volume>2,7 Bel</Acoustic_Min_performance_and_volume>
+      <Acoustic_Max_performance_and_volume>2,7 Bel</Acoustic_Max_performance_and_volume>
+      <Required_power_for_spinup>1.750 mA</Required_power_for_spinup>
+      <Power_required_seek>4,7 W</Power_required_seek>
+      <Power_required_idle>3,1 W</Power_required_idle>
+      <Power_required_standby>0,3 W</Power_required_standby>
+      <Manufacturer>Western Digital Corporation</Manufacturer>
+      <Manufacturer_Website>http://www.westerndigital.com/en/products</Manufacturer_Website>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="51" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="243" Worst="226" Data="000000000B19" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="00000000006C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
+      <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="0000000001B1" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="00000000000C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000C7" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="125" Worst="107" Data="000000000019" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
+      <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000001" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>1.647.294 MB,  16.244.395 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>285 MB,  7.714.693 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>1.160.313,93 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>551.049,50 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>429602 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>0 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>0 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_4>
+  <Physical_Disk_Information_Disk_5>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>5</Hard_Disk_Number>
+      <Interface>SCSI</Interface>
+      <Hard_Disk_Model_ID>Msft    Storage Space</Hard_Disk_Model_ID>
+      <Firmware_Revision>0.1                 </Firmware_Revision>
+      <Hard_Disk_Serial_Number>{4b74e435-efca-4455-</Hard_Disk_Serial_Number>
+      <Total_Size>9537526 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <Logical_Drive_s>P: [DrivePool] </Logical_Drive_s>
+      <Current_Temperature>?</Current_Temperature>
+      <Health>-1 %</Health>
+      <Performance>-1 %</Performance>
+    </Hard_Disk_Summary>
+    <Properties>
+      <Vendor_Information>M: 0</Vendor_Information>
+      <Status>OK</Status>
+      <Version>1</Version>
+      <Device_Type>Disk</Device_Type>
+      <ASC>?</ASC>
+      <ASCQ>0</ASCQ>
+    </Properties>
+    <SCSI_Information>
+      <Removable>Not supported [0]</Removable>
+      <Failure_Prediction>Not supported [0]</Failure_Prediction>
+      <Failure_Prediction>Disabled</Failure_Prediction>
+    </SCSI_Information>
+    <Hard_Disk_Test>
+      <Short_Self_test>Not supported [0]</Short_Self_test>
+      <Extended_Self_test>Not supported [0]</Extended_Self_test>
+    </Hard_Disk_Test>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>173.611 MB,  14.770.712 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>21.826 MB,  7.735.636 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>1.055.050,86 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>552.545,43 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>1018 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>199688 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>1018 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>2 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_5>
+  <Physical_Disk_Information_Disk_6>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>6</Hard_Disk_Number>
+      <Interface>USB Attached SCSI (UASP) SAT Standard USB/ATA</Interface>
+      <Vendor_Information>VID: 059F, PID: 106B</Vendor_Information>
+      <Version>USB 3.0</Version>
+      <Disk_Controller>Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft) (USB 3.0) [VEN: 8086, DEV: A36D] Version: 10.0.26100.6725, 9-25-2025</Disk_Controller>
+      <Hard_Disk_Model_ID>R3SL240G</Hard_Disk_Model_ID>
+      <Firmware_Revision>P0422C</Firmware_Revision>
+      <Hard_Disk_Serial_Number>E201608260010270</Hard_Disk_Serial_Number>
+      <SSD_Controller>Silicon Motion SM2256KX</SSD_Controller>
+      <Total_Size>228934 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <USB_Device_Name>Rugged Mini USB3</USB_Device_Name>
+      <Device_Type>Removable, surprise remove possible</Device_Type>
+      <Logical_Drive_s>G: [Backup SSD] </Logical_Drive_s>
+      <Current_Temperature>30 °C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>30 °C, 31.10.2025 05:14:12</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>30 °C, 31.10.2025 05:14:12</Minimum_Temperature_ever_measured>
+      <Daily_Average>30,00 °C</Daily_Average>
+      <Daily_Maximum>30 °C</Daily_Maximum>
+      <Power_on_time>126 days, 1 hours</Power_on_time>
+      <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
+      <Lifetime_writes>9,74 TB</Lifetime_writes>
+      <Health>97 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.  The TRIM feature of the SSD is supported and enabled for optimal performance. The health is determined by SSD specific S.M.A.R.T. attribute(s):  #169 Remain Life Percentage</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>465141</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ACS-2</ATA_Revision>
+      <Transport_Version>SATA Rev 3.1</Transport_Version>
+      <Total_Sectors>468862128</Total_Sectors>
+      <Bytes_Per_Sector>512</Bytes_Per_Sector>
+      <Multiple_Sectors>2</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>228937 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA II Signaling Speed (3 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Default (00h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Default (00h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Supported [1]</Host_Protected_Area>
+      <HPA_Security_Extensions>Supported [1]</HPA_Security_Extensions>
+      <Advanced_Power_Management>Not supported [0]</Advanced_Power_Management>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Not supported [0]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Supported [1]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Not supported [0]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>Not supported [0]</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_1>Not supported [0]</Long_Physical_Sectors_1>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Not supported [0]</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Service_Interrupt>Not supported [0]</Service_Interrupt>
+      <IDLE_IMMEDIATE_command_with_UNLOAD_feature>Not supported [0]</IDLE_IMMEDIATE_command_with_UNLOAD_feature>
+      <Zoned_Capabilities>Not supported [0]</Zoned_Capabilities>
+      <SCT_Command_Transport>Supported [1]</SCT_Command_Transport>
+      <SCT_Error_Recovery_Control>Not supported [0]</SCT_Error_Recovery_Control>
+      <Nominal_Media_Rotation_Rate>Non-rotating Media (SSD)</Nominal_Media_Rotation_Rate>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Supported [1]</Data_Set_Management>
+      <TRIM_Command>Supported [1]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Supported [1]</Deterministic_Read_After_TRIM>
+      <Read_Zeroes_After_TRIM>Supported [1]</Read_Zeroes_After_TRIM>
+      <Operating_System_TRIM_Function>Supported [1], Enabled</Operating_System_TRIM_Function>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Never Started</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>0 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Not supported [0]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Supported [1]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Not supported [0]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>1 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>2 minutes</Extended_Self_test_Estimated_Time>
+      <Conveyance_self_test_estimated_time>1 minutes</Conveyance_self_test_estimated_time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+      <Last_Conveyance_Self_test_Result>Never Started</Last_Conveyance_Self_test_Result>
+      <Last_Conveyance_Self_test_Date>Never Started</Last_Conveyance_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>2 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>2 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>No</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+      <Device_Encrypts_All_User_Data>No</Device_Encrypts_All_User_Data>
+      <Sanitize>Supported [1]</Sanitize>
+      <Overwrite>Not supported [0]</Overwrite>
+      <Crypto_Scramble>Not supported [0]</Crypto_Scramble>
+      <Block_Erase>Supported [1]</Block_Erase>
+      <Sanitize_Antifreeze_Lock>Not supported [0]</Sanitize_Antifreeze_Lock>
+      <ACS_3_Commands_Allowed_By_Sanitize>No</ACS_3_Commands_Allowed_By_Sanitize>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Supported [1]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Not supported [0]</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+      <NCQ_Streaming>Not supported [0]</NCQ_Streaming>
+      <NCQ_Autosense>Not supported [0]</NCQ_Autosense>
+      <Automatic_Partial_to_Slumber_Translations>Not supported [0]</Automatic_Partial_to_Slumber_Translations>
+      <Rebuild_Assist>Not supported [0]</Rebuild_Assist>
+      <Hybrid_Information>Not supported [0]</Hybrid_Information>
+      <Device_Sleep_DevSleep>Supported [1], Disabled</Device_Sleep_DevSleep>
+      <DevSleep_to_ReducedPwrState>Supported [1]</DevSleep_to_ReducedPwrState>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Information></Disk_Information>
+      <Form_Factor>2.5"</Form_Factor>
+      <Capacity>240 GB (240 x 1.000.000.000 bytes)</Capacity>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Device_Type>SK hynix TLC NAND</Device_Type>
+      <Width>69,8 mm (2,7 inch)</Width>
+      <Depth>100,0 mm (3,9 inch)</Depth>
+      <Height>9,5 mm (0,4 inch)</Height>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="1" Name="Read Error Rate" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="000000000BD1" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="12" Name="Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="0000000005FF" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="160" Name="Uncorrectable Sectors Count (Read/Write)" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="161" Name="Number of Valid Spare Blocks" Threshold="0" Value="100" Worst="100" Data="000000000076" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="163" Name="Number of Initial Invalid Blocks" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="164" Name="Total Erase Count" Threshold="0" Value="100" Worst="100" Data="00000000F2EF" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="165" Name="Maximum Erase Count" Threshold="0" Value="100" Worst="100" Data="000000000045" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="166" Name="Minimum Erase Count" Threshold="0" Value="100" Worst="100" Data="00000000000D" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="167" Name="Average Erase Count" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="168" Name="Max Erase Count of Spec" Threshold="0" Value="100" Worst="100" Data="0000000003E8" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="169" Name="Remain Life Percentage" Threshold="0" Value="100" Worst="100" Data="000000000061" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="175" Name="Program Fail Count In Worst Die" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="176" Name="Erase Fail Count In Worst Die" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="177" Name="Total Wearlevel Count" Threshold="50" Value="100" Worst="100" Data="00000000000C" Status="OK" Flags="" />
+      <Attribute ID="178" Name="Runtime Invalid Block Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="181" Name="Total Program Fail Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="182" Name="Total Erase Fail Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="192" Name="Power-off Retract Count" Threshold="0" Value="100" Worst="100" Data="000000000204" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="194" Name="Controlled Temperature" Threshold="0" Value="100" Worst="100" Data="00000000001E" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="195" Name="Hardware ECC Recovered" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="196" Name="Reallocation Event Count" Threshold="16" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="" />
+      <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="198" Name="Uncorrectable Error Count Off-line" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="199" Name="UltraDMA CRC Error Count" Threshold="50" Value="100" Worst="100" Data="00000000001B" Status="OK" Flags="" />
+      <Attribute ID="232" Name="Available Reserved Space" Threshold="0" Value="100" Worst="100" Data="000000000064" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="241" Name="Total Data Written (32MB)" Threshold="0" Value="100" Worst="100" Data="00000004DE38" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="242" Name="Total Data Read (32MB)" Threshold="0" Value="100" Worst="100" Data="0000000ABA49" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="245" Name="Total Flash Write Count (32MB)" Threshold="0" Value="100" Worst="100" Data="00000003CBBC" Status="OK (Always passing)" Flags="" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>0 MB,  87.623 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>0 MB,  1.942 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>6.258,79 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>138,71 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>20 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>0 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>0 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+  </Physical_Disk_Information_Disk_6>
+  <Partition_Information>
+    <Partition Drive="C: (Disk: #0)" Total_Space="243238 MB" Free_Space="21870 MB" Free_Space_Percent="  9 % (Low)" />
+    <Partition Drive="D: Seagate 1 TB (Disk: #1)" Total_Space="953740 MB" Free_Space="953609 MB" Free_Space_Percent="100 %" />
+    <Partition Drive="F: WD_Red_6TB (Disk: #3)" Total_Space="5723148 MB" Free_Space="5722870 MB" Free_Space_Percent="100 %" />
+    <Partition Drive="G: Backup SSD (Disk: #6)" Total_Space="228289 MB" Free_Space="226453 MB" Free_Space_Percent=" 99 %" />
+    <Partition Drive="P: DrivePool (Disk: #5)" Total_Space="9537406 MB" Free_Space="4437595 MB" Free_Space_Percent=" 47 %" />
+  </Partition_Information>
+  <Windows_Volume_RAID_Information>
+  </Windows_Volume_RAID_Information>
+  <System_Management_Information>
+    <Motherboard_Information>
+      <Manufacturer>HP</Manufacturer>
+      <Product>8598   KBC Version 08.09.22</Product>
+      <Serial_number>PHVUT0A8JD113Y</Serial_number>
+      <BIOS>HP ver. R22 Ver. 02.23.00 [07/07/2025]</BIOS>
+      <Memory_Module_1>8192 MB [2667 MHz] ChannelB</Memory_Module_1>
+      <Memory_Module_2>8192 MB [2133 MHz] ChannelA</Memory_Module_2>
+    </Motherboard_Information>
+    <System_Information>
+      <Manufacturer>HP</Manufacturer>
+      <Product>HP ProDesk 600 G5 Desktop Mini   SBKPF</Product>
+      <Serial_number>8CC948327M</Serial_number>
+      <UUID>647ADBED-7C96-119B-8137-5326D29D4B98</UUID>
+      <Chassis>HP</Chassis>
+      <Chassis_Serial_number>8CC948327M</Chassis_Serial_number>
+    </System_Information>
+  </System_Management_Information>
+  <Additional_Info>
+    <Update_Interval>3600</Update_Interval>
+  </Additional_Info>
+</Hard_Disk_Sentinel>

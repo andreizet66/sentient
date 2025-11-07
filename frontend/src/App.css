@@ -1,0 +1,934 @@
+/* =========================================================================
+   CRT Terminal Theme – Full Restoration (Nov 2025)
+   Includes scanlines, phosphor glow, flicker, scroll pulse,
+   and new frosted CRT cards for HDD Sentinel Web.
+   ========================================================================= */
+
+   /*Pre-render elements for animations.)*/
+
+.drive-card {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+   
+/* Hide default spinner if Vite shows any */
+#loading,
+.spinner,
+.loading-spinner {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* ───────────────────────────────
+   Core background + layout styling
+   ─────────────────────────────── */
+body {
+  background: radial-gradient(circle at center, rgba(0, 40, 0, 0.9) 0%, rgba(0, 0, 0, 1) 100%) !important;
+  color: #00ff80 !important;
+  text-shadow: 0 0 3px #00ff80, 0 0 8px #00ff80, 0 0 12px rgba(0, 255, 128, 0.5);
+  font-family: 'Courier New', monospace !important;
+  letter-spacing: 0.4px;
+
+  /* layout + scroll fixes */
+  margin: 0;
+  padding-bottom: 70px;  /* enough room for footer */
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+
+  /* CRT flicker */
+  animation: crt-flicker 0.2s infinite;
+}
+
+
+/* ───────────────────────────────
+   Scanline overlay
+   ─────────────────────────────── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0px,
+    rgba(0, 0, 0, 0.25) 1px,
+    rgba(0, 255, 128, 0.03) 2px,
+    rgba(0, 255, 128, 0.03) 3px
+  );
+  opacity: 0.2;
+  z-index: 1000;
+}
+
+
+/* ───────────────────────────────
+   Scrollbar styling
+   ─────────────────────────────── */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 255, 128, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 255, 128, 0.3);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+  animation: pulse-scroll 3s infinite;
+}
+
+@keyframes pulse-scroll {
+  0%, 100% { background-color: rgba(0, 255, 128, 0.25); }
+  50% { background-color: rgba(0, 255, 128, 0.4); }
+}
+
+/* ───────────────────────────────
+   General layout helpers
+   ─────────────────────────────── */
+h1, h2, h3, h4 {
+  color: #00ff80;
+  text-shadow: 0 0 4px rgba(0,255,128,0.6);
+}
+
+a {
+  color: #00ff80;
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 0 0 8px rgba(0,255,128,0.9);
+}
+
+/* =========================================================================
+   Drive Cards – Frosted CRT Display
+   ========================================================================= */
+
+.drive-card {
+  display: inline-block;
+  width: 330px;
+  min-height: 420px;
+  vertical-align: top;
+  margin: 10px;
+  padding: 12px 12px 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid rgba(0, 255, 128, 0.25);
+  border-radius: 14px;
+  background: rgba(0, 40, 0, 0.25);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow:
+    0 0 5px rgba(0, 255, 128, 0.25),
+    inset 0 0 6px rgba(0, 255, 128, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.drive-card {
+  height: auto !important;
+  min-height: unset !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  transition: all 0.4s ease-in-out !important;
+}
+
+
+.drive-card div,
+.drive-card p {
+  font-size: 13px;
+  line-height: 1.1em;
+}
+
+.drive-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 10px rgba(0, 255, 128, 0.35),
+    inset 0 0 12px rgba(0, 255, 128, 0.12);
+}
+
+.drive-card * {
+  line-height: 1.2em;
+}
+
+.drive-card h2,
+.drive-card h3,
+.drive-card p,
+.drive-card div {
+  margin: 2px 0;
+}
+
+.drive-card button {
+  margin-top: 10px;
+}
+
+.drive-card .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* ───────────────────────────────
+   SMART Table
+   ─────────────────────────────── */
+.smart-table {
+  font-size: 12px;
+  color: #00ff80;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.smart-table th,
+.smart-table td {
+  border: 1px solid rgba(0, 255, 128, 0.15);
+  padding: 6px;
+}
+
+.smart-table th {
+  background: rgba(0, 255, 128, 0.1);
+}
+
+.smart-table tr:nth-child(even) {
+  background: rgba(0, 255, 128, 0.03);
+}
+
+/* ───────────────────────────────
+   Progress Bars
+   ─────────────────────────────── */
+/* Compact and centered progress bar */
+.progress-container {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  margin: 8px auto 4px;
+  background: rgba(0, 255, 128, 0.12);
+  border-radius: 10px;
+  overflow: visible;
+  box-shadow: inset 0 0 4px rgba(0, 255, 128, 0.2);
+}
+
+.progress-container div {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 6px rgba(0, 255, 128, 0.4);
+}
+
+/* Compact spacing for progress bar and buttons */
+.progress-container {
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+button {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 6px rgba(0,255,128,0.4);
+}
+
+.progress-green {
+  background: rgba(0,255,128,0.6);
+}
+
+.progress-yellow {
+  background: rgba(255,255,128,0.6);
+}
+
+.progress-red {
+  background: rgba(255,64,64,0.7);
+}
+
+/* ───────────────────────────────
+   Button styling (SMART toggle)
+   ─────────────────────────────── */
+button {
+  color: #00ff80;
+  background: rgba(0, 40, 0, 0.4);
+  border: 1px solid rgba(0,255,128,0.3);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background: rgba(0,255,128,0.1);
+  box-shadow: 0 0 6px rgba(0,255,128,0.3);
+}
+
+/* ───────────────────────────────
+   Card layout container
+   ─────────────────────────────── */
+.cards-wrapper {
+  text-align: center;       /* center inline-block cards */
+  margin-top: 20px;
+}
+.cards-wrapper {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+
+/* Alias input styling */
+.alias-input {
+  background: transparent;
+  border: 1px solid rgba(0, 255, 128, 0.25);
+  border-radius: 6px;
+  color: #00ff80;
+  font-family: 'Courier New', monospace;
+  padding: 2px 6px;
+  width: 140px;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+.alias-input:focus {
+  box-shadow: 0 0 8px rgba(0, 255, 128, 0.4);
+}
+
+
+/* CRT-specific glow for edit field & icon */
+input:focus {
+  box-shadow: 0 0 6px #00ff80 inset, 0 0 4px #00ff80;
+}
+
+button svg {
+  filter: drop-shadow(0 0 3px #00ff80);
+}
+
+/* ===== CRT rename field & pencil only (scoped fix) ===== */
+
+.drive-card .rename-input {
+  background-color: black !important;
+  color: #00ff80 !important;
+  border: 1px solid #00ff80 !important;
+  border-radius: 6px !important;
+  text-align: center !important;
+  font-family: 'Courier New', monospace !important;
+  font-weight: 600 !important;
+  box-shadow: 0 0 6px #00ff80, inset 0 0 6px #00ff80 !important;
+}
+
+.drive-card .rename-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #00ff80, inset 0 0 8px #00ff80 !important;
+}
+
+.drive-card .rename-btn {
+  position: absolute !important;
+  top: 4px !important;
+  right: 4px !important;
+  width: 22px !important;
+  height: 22px !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  border: 1px solid rgba(0, 255, 128, 0.5) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #00ff80 !important;
+  box-shadow: 0 0 4px #00ff80 !important;
+}
+
+.drive-card .rename-btn:hover {
+  background: rgba(0, 255, 128, 0.2) !important;
+  box-shadow: 0 0 6px #00ff80 !important;
+}
+
+/* === Fix for SVG icons inside top buttons (rename + hide) === */
+.drive-card button svg {
+  width: 12px;
+  height: 12px;
+  color: #00ff80 !important;
+  filter: drop-shadow(0 0 6px #00ff80);
+  pointer-events: none;
+}
+.drive-card button:hover svg {
+  filter: drop-shadow(0 0 8px #00ff80);
+}
+
+
+/* === HDD Sentinel Card Typography Overhaul === */
+
+/* Main title (alias / custom name) */
+.drive-card .font-semibold {
+  font-size: 1.15rem !important;
+  font-weight: bold !important;
+  color: #00ff80 !important;
+  text-shadow: 0 0 8px #00ff80;
+  margin-bottom: 4px;
+}
+
+/* Model and interface lines */
+.drive-card .text-xs.opacity-70,
+.drive-card .text-xs.opacity-70 span {
+  opacity: 0.7 !important;
+  font-size: 0.9rem !important;
+  color: #00ff80cc !important;
+  text-shadow: 0 0 3px #00ff80;
+}
+
+/* Stats section (Temp, Health, etc.) */
+.stats {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  line-height: 1.6;
+  color: #00ff80;
+  text-shadow: 0 0 3px #00ff80;
+}
+
+.stats div {
+  margin-bottom: 4px;
+}
+
+/* Extra vertical spacing before Temp and after Drive Letter */
+.stats div:first-of-type {
+  margin-top: 12px; /* space before Temp */
+}
+
+.stats div:last-of-type {
+  margin-bottom: 12px; /* space after Drive Letter */
+}
+
+/* Remove dots for non-dotted labels (Power-on, Drive letter) */
+.stats div:nth-child(3) span:first-child::after,
+.stats div:nth-child(4) span:first-child::after {
+  content: "";
+}
+
+/* Empty rows for spacing */
+.stats div:nth-child(3),
+.stats div:nth-child(4) {
+  margin-top: 10px;
+}
+
+/* Storage line above the progress bar */
+.drive-card .mb-1.flex {
+  justify-content: center !important;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.drive-card .mb-1.flex div {
+  font-weight: bold;
+  color: #00ff80;
+  text-shadow: 0 0 4px #00ff80;
+}
+
+/* Used percentage under bar */
+.drive-card [class*="text-[11px]"] {
+  text-align: center !important;
+  color: #00ff80aa !important;
+  text-shadow: 0 0 3px #00ff80;
+  font-family: 'Courier New', monospace;
+}
+
+/* Force CRT title prominence (exact match for title div) */
+.font-bold.text-\[1\.15rem\].text-emerald-300.mb-1 {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #00ff9f !important;
+  text-shadow: 0 0 8px #00ff80, 0 0 0px #00ff80, 0 0 0px #00ff80 !important;
+  letter-spacing: 0.8px !important;
+  text-align: center !important;
+  margin-bottom: 10px !important;
+  line-height: 1.2 !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+
+/* Reinstate CRT bold for stats labels */
+.stats span:first-child {
+  font-weight: 600 !important;
+  color: #00ff80 !important;
+  text-shadow: 0 0 5px #00ff80;
+}
+
+
+.drive-card {
+  transition: height 0.4s ease-in-out, box-shadow 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* Smooth slide & fade for history chart */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+/* === Refined CRT Header Band (compact + balanced glow) === */
+.header-band {
+  position: relative;
+  width: 100%;
+  padding: 14px 0 18px; /* reduced height */
+  text-align: center;
+  color: #00ff80;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 25, 0, 0.95) 0%,
+    rgba(0, 55, 0, 0.6) 45%,
+    rgba(0, 20, 0, 0.9) 100%
+  );
+  box-shadow:
+    inset 0 1px 6px rgba(0, 255, 128, 0.18),
+    0 0 12px rgba(0, 255, 128, 0.08);
+  border-top: 1px solid rgba(0, 255, 128, 0.2);
+  border-bottom: 1px solid rgba(0, 255, 128, 0.2);
+}
+
+
+/* Subtle scanline shimmer */
+.header-band::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05) 0px,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 3px,
+    transparent 4px
+  );
+  opacity: 0.05;
+  pointer-events: none;
+  animation: crt-band-shimmer 1.8s linear infinite;
+  border-radius: 2px;
+}
+
+@keyframes crt-band-shimmer {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 4px; }
+}
+
+/* === Fixed CRT Header Band === */
+.header-band {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 14px 0 20px;
+  color: #00ff80;
+  font-family: "Courier New", monospace;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 40, 0, 0.95) 0%,
+    rgba(0, 15, 0, 1) 100%
+  );
+  box-shadow:
+    inset 0 -2px 12px rgba(0, 255, 128, 0.3),
+    0 0 20px rgba(0, 255, 128, 0.2);
+  z-index: 1000; /* stays above cards */
+}
+
+.header-band h1 {
+  margin: 0;
+  font-size: 22px;
+  text-shadow: 0 0 8px #00ff80;
+}
+
+.header-band h2 {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+
+/* === Compact Fixed CRT Footer Bar (Optimized Mobile Version) === */
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0 8px;
+  color: #00ff80;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 15, 0, 1) 0%,
+    rgba(0, 30, 0, 0.95) 100%
+  );
+  border-top: 1px solid rgba(0, 255, 128, 0.25);
+  box-shadow:
+    inset 0 2px 10px rgba(0, 255, 128, 0.15),
+    0 -2px 8px rgba(0, 255, 128, 0.1);
+  z-index: 9999;
+  line-height: 1.3;
+  backdrop-filter: blur(2px);
+}
+
+.footer-bar .footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  opacity: 0.9;
+}
+
+/* Button inside footer */
+.footer-bar button {
+  margin: 5px auto 6px;
+  padding: 4px 12px;
+  background: rgba(0, 40, 0, 0.4);
+  border: 1px solid rgba(0, 255, 128, 0.25);
+  color: #00ff80;
+  font-size: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.3s ease;
+}
+
+.footer-bar button:hover {
+  background: rgba(0, 60, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 255, 128, 0.3);
+}
+
+/* === Prevent overlap with bottom content === */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 60px !important;
+  }
+}
+
+
+/* === CRT Button Glow (Unified across UI) === */
+button,
+.drive-card button,
+.footer-bar button {
+  background-color: rgba(0, 40, 0, 0.4);
+  border: 1px solid rgba(0, 255, 128, 0.25);
+  color: #00ff80;
+  font-family: "Courier New", monospace;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, box-shadow 0.3s ease, transform 0.1s ease;
+}
+
+button:hover,
+.drive-card button:hover,
+.footer-bar button:hover {
+  background-color: rgba(0, 60, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 255, 128, 0.4);
+  transform: scale(1.02);
+}
+
+button:active,
+.drive-card button:active,
+.footer-bar button:active {
+  background-color: rgba(0, 80, 0, 0.7);
+  box-shadow: 0 0 4px rgba(0, 255, 128, 0.5) inset;
+  transform: scale(0.98);
+}
+
+/* Remove default browser focus ring (blue outline) */
+button:focus,
+button:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ───────────────────────────────
+   Storage Pool Drive List
+   ─────────────────────────────── */
+.pool-drive-list {
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Courier New', monospace;
+  color: #00ff80;
+  text-shadow: 0 0 3px #00ff80;
+  transition: height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+  overflow: hidden;
+}
+.pool-drive-item {
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+.pool-drive-name {
+  font-weight: bold;
+}
+.pool-drive-attrs {
+  padding-left: 16px;
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
+
+/* ───────────────────────────────
+   System Drive Card Badge
+   ─────────────────────────────── */
+
+.system-label {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #00ff80;
+  text-shadow: 0 0 6px #00ff80, 0 0 2px #00ff80;
+  border: 1px solid rgba(0, 255, 128, 0.3);
+  padding: 1px 6px 0;
+  border-radius: 4px;
+  background: rgba(0, 40, 0, 0.2);
+  box-shadow: inset 0 0 6px rgba(0, 255, 128, 0.3);
+}
+
+/* ───────────────────────────────
+   Storage Space Drive Card Badge
+   ─────────────────────────────── */
+.pool-badge {
+  display: inline-block;
+  margin-top: -6px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #00ff80;
+  text-shadow: 0 0 6px #00ff80, 0 0 2px #00ff80;
+  border: 1px solid rgba(0, 255, 128, 0.3);
+  padding: 1px 8px 0;
+  border-radius: 4px;
+  background: rgba(0, 40, 0, 0.25);
+  box-shadow: inset 0 0 6px rgba(0, 255, 128, 0.3);
+  animation: poolShimmer 6s linear infinite;
+}
+
+/* ───────────────────────────────
+   CRT Pulse Animations
+   For Temperature & Health Values
+   ─────────────────────────────── */
+
+/* === Warm / Warning Yellow Glow === */
+@keyframes pulseWarm {
+  0%, 100% {
+    color: #ffff66; /* fixed yellow */
+    text-shadow:
+      0 0 4px rgba(255, 255, 128, 0.6),
+      0 0 10px rgba(255, 255, 128, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 8px rgba(255, 255, 128, 0.8),
+      0 0 16px rgba(255, 255, 128, 0.6);
+  }
+}
+
+/* === Hot / Critical Red Glow === */
+@keyframes pulseHot {
+  0%, 100% {
+    color: #ff4040 !important; /* locked red */
+    text-shadow:
+      0 0 6px rgba(255, 64, 64, 0.6),
+      0 0 12px rgba(255, 64, 64, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 12px rgba(255, 64, 64, 0.9),
+      0 0 22px rgba(255, 64, 64, 0.8);
+  }
+}
+
+/* === Normal / Cool Green Glow === */
+@keyframes pulseCool {
+  0%, 100% {
+    color: #00ff80 !important;
+    text-shadow:
+      0 0 4px rgba(0, 255, 128, 0.5),
+      0 0 8px rgba(0, 255, 128, 0.3);
+  }
+  50% {
+    text-shadow:
+      0 0 8px rgba(0, 255, 128, 0.7),
+      0 0 14px rgba(0, 255, 128, 0.5);
+  }
+}
+
+/* === Classes applied dynamically in JSX === */
+
+/* Temperature */
+.temp-cool {
+  font-weight: bold;
+  animation: pulseCool 3s ease-in-out infinite;
+}
+
+.temp-warm {
+  font-weight: bold;
+  animation: pulseWarm 3s ease-in-out infinite;
+}
+
+.temp-hot {
+  font-weight: bold;
+  animation: pulseHot 2.5s ease-in-out infinite;
+}
+
+/* Health */
+.health-good {
+  font-weight: bold;
+  animation: pulseCool 3s ease-in-out infinite;
+}
+
+.health-warn {
+  font-weight: bold;
+  animation: pulseWarm 3s ease-in-out infinite;
+}
+
+.health-bad {
+  font-weight: bold;
+  animation: pulseHot 2.5s ease-in-out infinite;
+}
+
+/* ───────────────────────────────
+   CRT Value Pulse – Priority Fix
+   ─────────────────────────────── */
+
+/* --- Ensure red always overrides green --- */
+.temp-hot,
+.health-bad {
+  color: #ff4040 !important; /* hard lock red */
+  text-shadow:
+    0 0 6px rgba(255, 64, 64, 0.6),
+    0 0 12px rgba(255, 64, 64, 0.4);
+  animation: pulseHot 2.5s ease-in-out infinite !important;
+}
+
+/* --- Yellow still correct --- */
+.temp-warm,
+.health-warn {
+  color: #ffff66 !important; /* locked yellow */
+  text-shadow:
+    0 0 4px rgba(255, 255, 128, 0.5),
+    0 0 10px rgba(255, 255, 128, 0.3);
+  animation: pulseWarm 3s ease-in-out infinite !important;
+}
+
+/* --- Green normal values --- */
+.temp-cool,
+.health-good {
+  color: #00ff80 !important;
+  text-shadow:
+    0 0 4px rgba(0, 255, 128, 0.5),
+    0 0 8px rgba(0, 255, 128, 0.3);
+  animation: pulseCool 3s ease-in-out infinite !important;
+}
+
+
+/* ───────────────────────────────
+   Drive Card Page Load Animation
+   ─────────────────────────────── */
+
+@keyframes cardAscend {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    filter: brightness(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-3px) scale(1.01);
+    filter: brightness(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: brightness(1);
+  }
+}
+
+.drive-card {
+  animation: cardAscend 0.7s ease-out both;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  /* New: hint the compositor to pre-allocate */
+  contain: paint;
+}
+
+
+/* Smooth staggered delays (prevents GPU queue overload) */
+.drive-card:nth-child(1) { animation-delay: 0.08s; }
+.drive-card:nth-child(2) { animation-delay: 0.16s; }
+.drive-card:nth-child(3) { animation-delay: 0.24s; }
+.drive-card:nth-child(4) { animation-delay: 0.32s; }
+.drive-card:nth-child(5) { animation-delay: 0.40s; }
+.drive-card:nth-child(6) { animation-delay: 0.48s; }
+.drive-card:nth-child(7) { animation-delay: 0.56s; }
+.drive-card:nth-child(8) { animation-delay: 0.64s; }
+.drive-card:nth-child(9) { animation-delay: 0.72s; }
+
+
+/* === Footer Typing Animation === */
+@keyframes typing {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+    letter-spacing: 0.05em;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: normal;
+  }
+}
+
+.footer-info {
+  font-family: "Courier New", monospace;
+  text-shadow: 0 0 4px #00ff80, 0 0 8px #00ff80;
+}
+
+.footer-line {
+  display: block;
+  opacity: 0;
+  animation: typing 0.8s ease-out forwards;
+}
+
+/* delay second line so it types after the first */
+.footer-line.line1 {
+  animation-delay: 0.4s;
+}
+
+.footer-line.line2 {
+  animation-delay: 1.4s;
+}
+
+
+/* Remove blue outline/focus ring on Recharts charts */
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-responsive-container:focus {
+  outline: none !important;
+}
+
+/* ===== Custom text selection color ===== */
+::selection {
+  background: rgba(0, 255, 128, 0.25);  /* translucent green glow */
+  color: #00ff80;                        /* green phosphor text */
+  text-shadow: 0 0 6px #00ff80;
+}
+
+/* For Firefox (needs separate selector) */
+::-moz-selection {
+  background: rgba(0, 255, 128, 0.25);
+  color: #00ff80;
+  text-shadow: 0 0 6px #00ff80;
+}
+
+
+/* =========================================================================
+   End of CRT Theme
+   ========================================================================= */

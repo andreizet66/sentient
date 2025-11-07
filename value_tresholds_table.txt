@@ -1,0 +1,23 @@
+
+
+💚 Health thresholds
+| Condition       | Health %  | Color            | Behavior                  |
+| --------------- | --------- | ---------------- | ------------------------- |
+| 🟩 **Good**     | `≥ 100%`  | Green `#00ff80`  | Static or slow green glow |
+| 🟨 **Warning**  | `80%–99%` | Yellow `#ffff66` | Soft yellow pulsing glow  |
+| 🟥 **Critical** | `< 80%`   | Red `#ff4040`    | Strong red pulsing glow   |
+
+🌡️ Temperature thresholds
+| Condition     | Temp °C             | Color            | Behavior            |
+| ------------- | ------------------- | ---------------- | ------------------- |
+| 🟩 **Normal** | `≤ 40°C`            | Green `#00ff80`  | Calm phosphor glow  |
+| 🟨 **Warm**   | `> 40°C` & `≤ 55°C` | Yellow `#ffff66` | Gentle yellow pulse |
+| 🟥 **Hot**    | `> 55°C`            | Red `#ff4040`    | Intense red pulse   |
+
+💾 Usage bar thresholds
+| Condition               | Used %    | Color            | Behavior                    |
+| ----------------------- | --------- | ---------------- | --------------------------- |
+| 🟩 **Healthy capacity** | `< 70%`   | Green `#00ff80`  | Solid green bar             |
+| 🟨 **Moderate**         | `70%–89%` | Yellow `#ffff66` | Yellow warning hue          |
+| 🟥 **Full / Risk**      | `≥ 90%`   | Red `#ff4040`    | Red bar, may pulse slightly |
+
