@@ -14,8 +14,9 @@ import { FaEyeSlash } from "react-icons/fa6";
 
 
 
-const API = `${window.location.origin.replace(/:[0-9]+$/, ':8000')}/history`;
-const SETTINGS_API = `${window.location.origin.replace(/:[0-9]+$/, ':8000')}/settings`;
+const base = window.location.origin;
+const API = `${base}/history`;
+const SETTINGS_API = `${base}/settings`;
 
 
 // ========== SETTINGS HELPERS ==========
