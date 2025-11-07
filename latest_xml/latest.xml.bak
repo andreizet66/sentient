@@ -4,10 +4,10 @@
     <Application_Information>
       <Installed_version>Hard Disk Sentinel 6.20 PRO</Installed_version>
       <Registered_to>PhoenixBBS</Registered_to>
-      <Current_Date_And_Time>07.11.2025 19:15:14</Current_Date_And_Time>
+      <Current_Date_And_Time>06.11.2025 23:48:12</Current_Date_And_Time>
       <Health_calculation_method>Analyse data field (default)</Health_calculation_method>
       <UUID>{51B8CECB-C65D-4B8F-A8C0-99BAD3754F77}</UUID>
-      <Report_Creation_Time>0,606 s</Report_Creation_Time>
+      <Report_Creation_Time>1,041 s</Report_Creation_Time>
     </Application_Information>
     <Computer_Information>
       <Computer_Name>HELIOS</Computer_Name>
@@ -15,11 +15,11 @@
       <Computer_Type>Desktop</Computer_Type>
       <IP_Address>192.168.56.1,172.19.192.1,172.19.160.1,192.168.1.2,100.88.77.66</IP_Address>
       <MAC_Address>04-0E-3C-C4-A8-0A</MAC_Address>
-      <System_Uptime>6 days, 6 hours, 27 minutes, 11 seconds</System_Uptime>
-      <System_Idle_Time>0 days, 0 hours, 0 minutes, 0 seconds</System_Idle_Time>
+      <System_Uptime>5 days, 11 hours, 0 minutes, 9 seconds</System_Uptime>
+      <System_Idle_Time>0 days, 0 hours, 49 minutes, 23 seconds</System_Idle_Time>
       <System_Up_Since>01.11.2025 12:48:03</System_Up_Since>
-      <CPU_Usage>CPU #1: 56 %, CPU #2: 63 %, CPU #3: 64 %, CPU #4: 55 %, CPU #5: 61 %, CPU #6: 64 %</CPU_Usage>
-      <Virtual_Memory>26160 MB, Used: 16732 MB (64 %)</Virtual_Memory>
+      <CPU_Usage>CPU #1: 37 %, CPU #2: 43 %, CPU #3: 43 %, CPU #4: 37 %, CPU #5: 41 %, CPU #6: 44 %</CPU_Usage>
+      <Virtual_Memory>26160 MB, Used: 18463 MB (71 %)</Virtual_Memory>
     </Computer_Information>
     <System_Information>
       <Windows_Version>Windows 11 Pro 25H2  [6.3]</Windows_Version>
@@ -30,7 +30,7 @@
       <CPU_Type_Speed_5>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_5>
       <CPU_Type_Speed_6>Intel(R) Core(TM) i5-9600T CPU @ 2.30GHz, 2304 MHz</CPU_Type_Speed_6>
       <BIOS_Manufacturer>HPQOEM - 0 R22 Ver. 02.23.00 HP - 21700  </BIOS_Manufacturer>
-      <Physical_Memory_Size>16158 MB, Used: 11066 MB (68 %)</Physical_Memory_Size>
+      <Physical_Memory_Size>16158 MB, Used: 11540 MB (71 %)</Physical_Memory_Size>
       <Display_Adapter>Intel(R) UHD Graphics 630</Display_Adapter>
       <Display_Resolution>1710 x 1072 (32 bit)</Display_Resolution>
       <Printer_1>Feliciprint (redirected 4)</Printer_1>
@@ -50,13 +50,13 @@
       <PCI_bus_1_device_0_function_0>Standard NVM Express Controller</PCI_bus_1_device_0_function_0>
   <Errors>
   NumOfDrives: 7 //
-    0: NONE - SCSI 01 (1924)   RS:F DE:0 IS:0  RS:F DE:0 IS:0  RS:F DE:0 IS:0  T: 105 ms, IDR1 IDR2  Time:  ATAIDR1:43 ATAIDR2:41 SCSI:18 //
-    1: NONE - USB/ATA T: 496 ms, Time:  USB/ATA:495 //
-    2: NONE - USB/ATA T: 8 ms, Time:  USB/ATA:8 //
-    3: NONE - USB/ATA T: 50 ms, Time:  USB/ATA:49 //
-    4: NONE - USB/ATA T: 17 ms, Time:  USB/ATA:17 //
-    5: NONE - SCSI 01 (1888)   RS:F DE:0 IS:0  RS INQF:87 BUT:16 ABO T: 85 ms, IDR1 IDR2  Time:  ATAIDR1:42 ATAIDR2:41 SCSI:0 //
-    6: NONE - USB/ATA T: 12 ms, Time:  USB/ATA:12 //
+    0: NONE - SCSI 01 (1932)   RS:F DE:0 IS:0  RS:F DE:0 IS:0  RS:F DE:0 IS:0  T: 137 ms, IDR1 IDR2  Time:  ATAIDR1:48 ATAIDR2:41 SCSI:43 //
+    1: NONE - USB/ATA T: 486 ms, Time:  USB/ATA:485 //
+    2: NONE - USB/ATA T: 69 ms, Time:  USB/ATA:67 //
+    3: NONE - USB/ATA T: 62 ms, Time:  USB/ATA:60 //
+    4: NONE - USB/ATA T: 12 ms, Time:  USB/ATA:12 //
+    5: NONE - SCSI 01 (1208)   RS:F DE:0 IS:0  RS INQF:87 BUT:16 ABO T: 97 ms, IDR1 IDR2  Time:  ATAIDR1:46 ATAIDR2:41 SCSI:2 //
+    6: NONE - USB/ATA T: 24 ms, Time:  USB/ATA:23 //
     100: , Time: //
     101: , Time: //
     102: , Time: //
@@ -212,14 +212,14 @@
       <Power_State>Active</Power_State>
       <Device_Type>Fixed Disk</Device_Type>
       <Logical_Drive_s>C: [] </Logical_Drive_s>
-      <Current_Temperature>60 °C</Current_Temperature>
+      <Current_Temperature>61 °C</Current_Temperature>
       <Maximum_Temperature_ever_measured>80 °C, 31.10.2025 19:22:22</Maximum_Temperature_ever_measured>
       <Minimum_Temperature_ever_measured>38 °C, 25.10.2025 11:10:13</Minimum_Temperature_ever_measured>
-      <Daily_Average>61,87 °C</Daily_Average>
-      <Daily_Maximum>64 °C</Daily_Maximum>
-      <Power_on_time>14 days, 10 hours</Power_on_time>
+      <Daily_Average>61,24 °C</Daily_Average>
+      <Daily_Maximum>63 °C</Daily_Maximum>
+      <Power_on_time>13 days, 19 hours</Power_on_time>
       <Estimated_remaining_lifetime>862 days</Estimated_remaining_lifetime>
-      <Lifetime_writes>3,23 TB</Lifetime_writes>
+      <Lifetime_writes>3,17 TB</Lifetime_writes>
       <Health>69 %</Health>
       <Performance>100 %</Performance>
       <Description>The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.  The health is determined by SSD specific S.M.A.R.T. attribute(s):  Available Spare (Percent), Percentage Used The TRIM feature of the SSD is supported and enabled for optimal performance.</Description>
@@ -303,34 +303,34 @@
     </Disk_Information>
     <S.M.A.R.T.>
 <Attribute Name="Critical Warning" Threshold="" Value="0" />
-<Attribute Name="Composite Temperature (Kelvin)" Threshold="" Value="333" />
+<Attribute Name="Composite Temperature (Kelvin)" Threshold="" Value="334" />
 <Attribute Name="Available Spare (Percent)" Threshold="" Value="100" />
 <Attribute Name="Available Spare Threshold" Threshold="" Value="5" />
 <Attribute Name="Percentage Used" Threshold="" Value="31" />
-<Attribute Name="Data Units Read (512000 Bytes)" Threshold="" Value="9.855.094" />
-<Attribute Name="Data Units Written (512000 Bytes)" Threshold="" Value="6.943.294" />
-<Attribute Name="Host Read Commands" Threshold="" Value="89.730.983" />
-<Attribute Name="Host Write Commands" Threshold="" Value="149.743.633" />
-<Attribute Name="Controller Busy Time (minutes)" Threshold="" Value="3.095" />
+<Attribute Name="Data Units Read (512000 Bytes)" Threshold="" Value="9.751.721" />
+<Attribute Name="Data Units Written (512000 Bytes)" Threshold="" Value="6.797.194" />
+<Attribute Name="Host Read Commands" Threshold="" Value="88.466.382" />
+<Attribute Name="Host Write Commands" Threshold="" Value="144.575.246" />
+<Attribute Name="Controller Busy Time (minutes)" Threshold="" Value="3.002" />
 <Attribute Name="Power Cycles" Threshold="" Value="182" />
-<Attribute Name="Power On Hours" Threshold="" Value="346" />
+<Attribute Name="Power On Hours" Threshold="" Value="331" />
 <Attribute Name="Unsafe Shutdowns" Threshold="" Value="109" />
 <Attribute Name="Media and Data Integrity Errors" Threshold="" Value="0" />
 <Attribute Name="Number of Error Information Log Entries" Threshold="" Value="151" />
 <Attribute Name="Warning Composite Temperature Time (minutes)" Threshold="" Value="0" />
 <Attribute Name="Critical Composite Temperature Time (minutes)" Threshold="" Value="0" />
-<Attribute Name="Temperature Sensor 1" Threshold="" Value="333" />
-<Attribute Name="Temperature Sensor 2" Threshold="" Value="337" />
+<Attribute Name="Temperature Sensor 1" Threshold="" Value="334" />
+<Attribute Name="Temperature Sensor 2" Threshold="" Value="338" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
-      <Total_Data_Read>47.422 MB,  1.024.342 MB since installation  (24.10.2025)</Total_Data_Read>
-      <Total_Data_Write>66.728 MB,  1.229.228 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>73.167,29 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>87.802,00 MB</Average_Writes_Per_Day>
-      <Current_Transfer_Rate>542 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>605190 KB/s</Maximum_Transfer_Rate>
+      <Total_Data_Read>39.166 MB,  976.009 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>95.779 MB,  1.159.708 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>75.077,62 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>89.208,31 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>625 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>480478 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>5 KB/s</Current_Read_Rate>
-      <Current_Write_Rate>537 KB/s</Current_Write_Rate>
+      <Current_Write_Rate>620 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>2 %</Current_Disk_Activity>
     </Transfer_Rate_Information>
   </Physical_Disk_Information_Disk_0>
@@ -351,11 +351,11 @@
       <Logical_Drive_s>D: [Seagate 1 TB] </Logical_Drive_s>
       <Current_Temperature>23 °C</Current_Temperature>
       <Maximum_Temperature_ever_measured>35 °C, 01.11.2025 02:00:03</Maximum_Temperature_ever_measured>
-      <Minimum_Temperature_ever_measured>22 °C, 07.11.2025 05:15:01</Minimum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>23 °C, 06.11.2025 15:35:51</Minimum_Temperature_ever_measured>
       <Maximum_Temperature_during_entire_lifespan>52 °C</Maximum_Temperature_during_entire_lifespan>
-      <Daily_Average>22,75 °C</Daily_Average>
+      <Daily_Average>23,00 °C</Daily_Average>
       <Daily_Maximum>23 °C</Daily_Maximum>
-      <Power_on_time>641 days, 2 hours</Power_on_time>
+      <Power_on_time>640 days, 7 hours</Power_on_time>
       <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
       <Health>100 %</Health>
       <Performance>100 %</Performance>
@@ -536,38 +536,38 @@
       <Manufacturer_Website>http://www.seagate.com/www/en-us/products</Manufacturer_Website>
     </Disk_Information>
     <S.M.A.R.T.>
-      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="6" Value="81" Worst="64" Data="000007AA15D3" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="1" Name="Raw Read Error Rate" Threshold="6" Value="81" Worst="64" Data="000007A9BAAE" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
       <Attribute ID="3" Name="Spin Up Time" Threshold="0" Value="99" Worst="99" Data="000000000000" Status="OK (Always passing)" Flags="Statistical, Critical" />
-      <Attribute ID="4" Name="Start/Stop Count" Threshold="20" Value="98" Worst="98" Data="00000000082E" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="20" Value="98" Worst="98" Data="00000000082D" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="36" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
-      <Attribute ID="7" Name="Seek Error Rate" Threshold="45" Value="78" Worst="60" Data="00010363840B" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
-      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="83" Worst="83" Data="AC6C00003C1A" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="7" Name="Seek Error Rate" Threshold="45" Value="78" Worst="60" Data="000103638175" Status="OK" Flags="Error-Rate, Performance, Statistical, Critical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="83" Worst="83" Data="D5E400003C07" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="10" Name="Spin Retry Count" Threshold="97" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Event Count, Statistical, Critical" />
       <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="20" Value="100" Worst="100" Data="0000000001AF" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="184" Name="End-to-End Error Count" Threshold="99" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="187" Name="Reported Uncorrectable Errors" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="188" Name="Command Timeout" Threshold="0" Value="100" Worst="99" Data="000B000B002C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="189" Name="High Fly Writes" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Error-Rate, Statistical" />
-      <Attribute ID="190" Name="Airflow Temperature" Threshold="40" Value="77" Worst="48" Data="00001D160017" Status="OK" Flags="Self Preserving, Statistical" />
+      <Attribute ID="190" Name="Airflow Temperature" Threshold="40" Value="77" Worst="48" Data="00001D170017" Status="OK" Flags="Self Preserving, Statistical" />
       <Attribute ID="191" Name="G-Sense Error Rate" Threshold="0" Value="100" Worst="100" Data="000000000011" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="100" Worst="100" Data="00000000008C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
-      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="90" Worst="90" Data="0000000052FE" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="90" Worst="90" Data="000000005199" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="23" Worst="52" Data="001100000017" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
       <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Event Count, Statistical" />
       <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Event Count" />
       <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Error-Rate, Performance, Statistical" />
-      <Attribute ID="240" Name="Head Flying Hours" Threshold="0" Value="100" Worst="253" Data="8AFD000028F4" Status="OK (Always passing)" Flags="" />
-      <Attribute ID="241" Name="Total LBA Written" Threshold="0" Value="100" Worst="253" Data="000738D53A35" Status="OK (Always passing)" Flags="" />
-      <Attribute ID="242" Name="Total LBA Read" Threshold="0" Value="100" Worst="253" Data="000D4F4C9FF0" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="240" Name="Head Flying Hours" Threshold="0" Value="100" Worst="253" Data="4E3A000028F3" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="241" Name="Total LBA Written" Threshold="0" Value="100" Worst="253" Data="000738D538B5" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="242" Name="Total LBA Read" Threshold="0" Value="100" Worst="253" Data="000D4F4C464B" Status="OK (Always passing)" Flags="" />
       <Attribute ID="254" Name="Free Fall Event Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
-      <Total_Data_Read>1 MB,  36 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Read>2 MB,  35 MB since installation  (24.10.2025)</Total_Data_Read>
       <Total_Data_Write>0 MB,  2 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>2,57 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>0,14 MB</Average_Writes_Per_Day>
+      <Average_Reads_Per_Day>2,69 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>0,15 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>244 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>17 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
@@ -576,18 +576,24 @@
   <Physical_Disk_Information_Disk_2>
     <Hard_Disk_Summary>
       <Hard_Disk_Number>2</Hard_Disk_Number>
-      <Interface>SAT Standard USB/ATA</Interface>
+      <Interface>USB Attached SCSI (UASP) SAT Standard USB/ATA</Interface>
+      <Vendor_Information>VID: 152D, PID: A580</Vendor_Information>
+      <Version>USB 3.2 SuperSpeedPlus</Version>
+      <Disk_Controller>Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft) (USB 3.0) [VEN: 8086, DEV: A36D] Version: 10.0.26100.6725, 9-25-2025</Disk_Controller>
       <Hard_Disk_Model_ID>WDC WD40EFPX-68C6CN0</Hard_Disk_Model_ID>
       <Firmware_Revision>81.00A81</Firmware_Revision>
       <Hard_Disk_Serial_Number>WD-WXA2D15L2LTD</Hard_Disk_Serial_Number>
       <Total_Size>3815445 MB</Total_Size>
       <Power_State>Active</Power_State>
+      <USB_Device_Name>USB Mass Storage</USB_Device_Name>
+      <Device_Type>Removable, surprise remove possible</Device_Type>
+      <Logical_Drive_s>E: [WD_Red_4TB] </Logical_Drive_s>
       <Current_Temperature>24 °C</Current_Temperature>
       <Maximum_Temperature_ever_measured>39 °C, 01.11.2025 01:50:03</Maximum_Temperature_ever_measured>
       <Minimum_Temperature_ever_measured>22 °C, 25.10.2025 11:16:54</Minimum_Temperature_ever_measured>
-      <Daily_Average>24,00 °C</Daily_Average>
-      <Daily_Maximum>24 °C</Daily_Maximum>
-      <Power_on_time>49 days, 18 hours</Power_on_time>
+      <Daily_Average>24,28 °C</Daily_Average>
+      <Daily_Maximum>25 °C</Daily_Maximum>
+      <Power_on_time>48 days, 23 hours</Power_on_time>
       <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
       <Health>100 %</Health>
       <Performance>100 %</Performance>
@@ -767,16 +773,16 @@
     </Disk_Information>
     <S.M.A.R.T.>
       <Attribute ID="1" Name="Raw Read Error Rate" Threshold="51" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Error-Rate, Performance, Statistical, Critical" />
-      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="213" Worst="208" Data="000000000904" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
-      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="00000000005E" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="214" Worst="208" Data="0000000008D2" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="00000000005D" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
       <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
-      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="99" Worst="99" Data="0000000004AA" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="99" Worst="99" Data="000000000497" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000029" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="000000000012" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
-      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000DB" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000D4" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="123" Worst="108" Data="000000000018" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
       <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
@@ -785,12 +791,12 @@
       <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
-      <Total_Data_Read>76.697 MB,  77.294 MB since installation  (24.10.2025)</Total_Data_Read>
-      <Total_Data_Write>1.571.511 MB,  1.736.157 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>5.521,00 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>124.011,21 MB</Average_Writes_Per_Day>
+      <Total_Data_Read>2 MB,  597 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>0 MB,  164.646 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>45,92 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>12.665,08 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>175862 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>17 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
@@ -813,10 +819,10 @@
       <Logical_Drive_s>F: [WD_Red_6TB] </Logical_Drive_s>
       <Current_Temperature>25 °C</Current_Temperature>
       <Maximum_Temperature_ever_measured>42 °C, 01.11.2025 02:00:04</Maximum_Temperature_ever_measured>
-      <Minimum_Temperature_ever_measured>24 °C, 07.11.2025 05:15:01</Minimum_Temperature_ever_measured>
-      <Daily_Average>25,00 °C</Daily_Average>
-      <Daily_Maximum>25 °C</Daily_Maximum>
-      <Power_on_time>7 days, 4 hours</Power_on_time>
+      <Minimum_Temperature_ever_measured>25 °C, 06.11.2025 23:48:12</Minimum_Temperature_ever_measured>
+      <Daily_Average>25,50 °C</Daily_Average>
+      <Daily_Maximum>26 °C</Daily_Maximum>
+      <Power_on_time>6 days, 9 hours</Power_on_time>
       <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
       <Health>100 %</Health>
       <Performance>100 %</Performance>
@@ -996,16 +1002,16 @@
     </Disk_Information>
     <S.M.A.R.T.>
       <Attribute ID="1" Name="Raw Read Error Rate" Threshold="51" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Error-Rate, Performance, Statistical, Critical" />
-      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="232" Worst="227" Data="000000000D1E" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
-      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="000000000012" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="3" Name="Spin Up Time" Threshold="21" Value="233" Worst="227" Data="000000000CEC" Status="OK" Flags="Self Preserving, Performance, Statistical, Critical" />
+      <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="000000000011" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
       <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
-      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="0000000000AC" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="000000000099" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000004" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
-      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="00000000006B" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="00000000002B" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="125" Worst="108" Data="000000000019" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
       <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
@@ -1014,12 +1020,12 @@
       <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
-      <Total_Data_Read>1 MB,  534 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Read>2 MB,  533 MB since installation  (24.10.2025)</Total_Data_Read>
       <Total_Data_Write>0 MB,  523 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>38,14 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>37,36 MB</Average_Writes_Per_Day>
+      <Average_Reads_Per_Day>41,00 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>40,23 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>24 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>17 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
@@ -1036,10 +1042,10 @@
       <Power_State>Active</Power_State>
       <Current_Temperature>25 °C</Current_Temperature>
       <Maximum_Temperature_ever_measured>43 °C, 28.10.2025 04:50:30</Maximum_Temperature_ever_measured>
-      <Minimum_Temperature_ever_measured>24 °C, 07.11.2025 07:15:02</Minimum_Temperature_ever_measured>
-      <Daily_Average>24,75 °C</Daily_Average>
-      <Daily_Maximum>25 °C</Daily_Maximum>
-      <Power_on_time>18 days, 2 hours</Power_on_time>
+      <Minimum_Temperature_ever_measured>25 °C, 25.10.2025 11:10:13</Minimum_Temperature_ever_measured>
+      <Daily_Average>25,25 °C</Daily_Average>
+      <Daily_Maximum>26 °C</Daily_Maximum>
+      <Power_on_time>17 days, 6 hours</Power_on_time>
       <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
       <Health>100 %</Health>
       <Performance>100 %</Performance>
@@ -1223,26 +1229,26 @@
       <Attribute ID="4" Name="Start/Stop Count" Threshold="0" Value="100" Worst="100" Data="00000000006C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="140" Value="200" Worst="200" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
       <Attribute ID="7" Name="Seek Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Error-Rate, Performance, Statistical" />
-      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="0000000001B2" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="00000000019E" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="10" Name="Spin Retry Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="11" Name="Drive Calibration Retry Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="192" Name="Power off Retract Cycle Count" Threshold="0" Value="200" Worst="200" Data="00000000000C" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
-      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000C8" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="193" Name="Load/Unload Cycle Count" Threshold="0" Value="200" Worst="200" Data="0000000000B7" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="194" Name="Disk Temperature" Threshold="0" Value="125" Worst="107" Data="000000000019" Status="OK (Always passing)" Flags="Self Preserving, Statistical" />
       <Attribute ID="196" Name="Reallocation Event Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="197" Name="Current Pending Sector Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="198" Name="Off-Line Uncorrectable Sector Count" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count" />
-      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000001" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
       <Attribute ID="200" Name="Write Error Rate" Threshold="0" Value="100" Worst="253" Data="000000000000" Status="OK (Always passing)" Flags="Error-Rate" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
-      <Total_Data_Read>1.647.294 MB,  16.244.395 MB since installation  (24.10.2025)</Total_Data_Read>
-      <Total_Data_Write>285 MB,  7.714.693 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>1.160.313,93 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>551.049,50 MB</Average_Writes_Per_Day>
+      <Total_Data_Read>167.845 MB,  14.597.022 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>81.055 MB,  7.714.408 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>1.122.847,85 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>593.416,00 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>429602 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>138449 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
@@ -1255,7 +1261,7 @@
       <Hard_Disk_Model_ID>Msft    Storage Space</Hard_Disk_Model_ID>
       <Firmware_Revision>0.1                 </Firmware_Revision>
       <Hard_Disk_Serial_Number>{4b74e435-efca-4455-</Hard_Disk_Serial_Number>
-      <Total_Size>9537526 MB</Total_Size>
+      <Total_Size>5714935 MB</Total_Size>
       <Power_State>Active</Power_State>
       <Logical_Drive_s>P: [DrivePool] </Logical_Drive_s>
       <Current_Temperature>?</Current_Temperature>
@@ -1280,12 +1286,12 @@
       <Extended_Self_test>Not supported [0]</Extended_Self_test>
     </Hard_Disk_Test>
     <Transfer_Rate_Information>
-      <Total_Data_Read>174.075 MB,  14.771.176 MB since installation  (24.10.2025)</Total_Data_Read>
-      <Total_Data_Write>21.826 MB,  7.735.636 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>1.055.084,00 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>552.545,43 MB</Average_Writes_Per_Day>
+      <Total_Data_Read>167.846 MB,  14.597.023 MB since installation  (24.10.2025)</Total_Data_Read>
+      <Total_Data_Write>81.049 MB,  7.713.810 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>1.122.847,92 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>593.370,00 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>199688 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>138449 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
@@ -1312,7 +1318,7 @@
       <Minimum_Temperature_ever_measured>30 °C, 31.10.2025 05:14:12</Minimum_Temperature_ever_measured>
       <Daily_Average>30,00 °C</Daily_Average>
       <Daily_Maximum>30 °C</Daily_Maximum>
-      <Power_on_time>126 days, 2 hours</Power_on_time>
+      <Power_on_time>125 days, 7 hours</Power_on_time>
       <Estimated_remaining_lifetime>more than 1000 days</Estimated_remaining_lifetime>
       <Lifetime_writes>9,74 TB</Lifetime_writes>
       <Health>97 %</Health>
@@ -1474,12 +1480,12 @@
     <S.M.A.R.T.>
       <Attribute ID="1" Name="Read Error Rate" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
       <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
-      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="000000000BD2" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="100" Worst="100" Data="000000000BBF" Status="OK (Always passing)" Flags="" />
       <Attribute ID="12" Name="Power Cycle Count" Threshold="0" Value="100" Worst="100" Data="0000000005FF" Status="OK (Always passing)" Flags="" />
       <Attribute ID="160" Name="Uncorrectable Sectors Count (Read/Write)" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="" />
       <Attribute ID="161" Name="Number of Valid Spare Blocks" Threshold="0" Value="100" Worst="100" Data="000000000076" Status="OK (Always passing)" Flags="" />
       <Attribute ID="163" Name="Number of Initial Invalid Blocks" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="" />
-      <Attribute ID="164" Name="Total Erase Count" Threshold="0" Value="100" Worst="100" Data="00000000F2EF" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="164" Name="Total Erase Count" Threshold="0" Value="100" Worst="100" Data="00000000F2DD" Status="OK (Always passing)" Flags="" />
       <Attribute ID="165" Name="Maximum Erase Count" Threshold="0" Value="100" Worst="100" Data="000000000045" Status="OK (Always passing)" Flags="" />
       <Attribute ID="166" Name="Minimum Erase Count" Threshold="0" Value="100" Worst="100" Data="00000000000D" Status="OK (Always passing)" Flags="" />
       <Attribute ID="167" Name="Average Erase Count" Threshold="0" Value="100" Worst="100" Data="000000000020" Status="OK (Always passing)" Flags="" />
@@ -1501,26 +1507,27 @@
       <Attribute ID="232" Name="Available Reserved Space" Threshold="0" Value="100" Worst="100" Data="000000000064" Status="OK (Always passing)" Flags="" />
       <Attribute ID="241" Name="Total Data Written (32MB)" Threshold="0" Value="100" Worst="100" Data="00000004DE38" Status="OK (Always passing)" Flags="" />
       <Attribute ID="242" Name="Total Data Read (32MB)" Threshold="0" Value="100" Worst="100" Data="0000000ABA49" Status="OK (Always passing)" Flags="" />
-      <Attribute ID="245" Name="Total Flash Write Count (32MB)" Threshold="0" Value="100" Worst="100" Data="00000003CBBC" Status="OK (Always passing)" Flags="" />
+      <Attribute ID="245" Name="Total Flash Write Count (32MB)" Threshold="0" Value="100" Worst="100" Data="00000003CB74" Status="OK (Always passing)" Flags="" />
     </S.M.A.R.T.>
     <Transfer_Rate_Information>
       <Total_Data_Read>0 MB,  87.623 MB since installation  (24.10.2025)</Total_Data_Read>
-      <Total_Data_Write>0 MB,  1.942 MB since installation</Total_Data_Write>
-      <Average_Reads_Per_Day>6.258,79 MB</Average_Reads_Per_Day>
-      <Average_Writes_Per_Day>138,71 MB</Average_Writes_Per_Day>
+      <Total_Data_Write>77 MB,  1.942 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>6.740,23 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>149,38 MB</Average_Writes_Per_Day>
       <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
-      <Maximum_Transfer_Rate>20 KB/s</Maximum_Transfer_Rate>
+      <Maximum_Transfer_Rate>61048 KB/s</Maximum_Transfer_Rate>
       <Current_Read_Rate>0 KB/s</Current_Read_Rate>
       <Current_Write_Rate>0 KB/s</Current_Write_Rate>
       <Current_Disk_Activity>0 %</Current_Disk_Activity>
     </Transfer_Rate_Information>
   </Physical_Disk_Information_Disk_6>
   <Partition_Information>
-    <Partition Drive="C: (Disk: #0)" Total_Space="243238 MB" Free_Space="23316 MB" Free_Space_Percent=" 10 % (Low)" />
+    <Partition Drive="C: (Disk: #0)" Total_Space="243238 MB" Free_Space="23813 MB" Free_Space_Percent=" 10 % (Low)" />
     <Partition Drive="D: Seagate 1 TB (Disk: #1)" Total_Space="953740 MB" Free_Space="953609 MB" Free_Space_Percent="100 %" />
+    <Partition Drive="E: WD_Red_4TB (Disk: #2)" Total_Space="3815318 MB" Free_Space="3815098 MB" Free_Space_Percent="100 %" />
     <Partition Drive="F: WD_Red_6TB (Disk: #3)" Total_Space="5723148 MB" Free_Space="5722870 MB" Free_Space_Percent="100 %" />
     <Partition Drive="G: Backup SSD (Disk: #6)" Total_Space="228289 MB" Free_Space="226453 MB" Free_Space_Percent=" 99 %" />
-    <Partition Drive="P: DrivePool (Disk: #5)" Total_Space="9537406 MB" Free_Space="4437595 MB" Free_Space_Percent=" 47 %" />
+    <Partition Drive="P: DrivePool (Disk: #5)" Total_Space="5714814 MB" Free_Space="636743 MB" Free_Space_Percent=" 11 %" />
   </Partition_Information>
   <Windows_Volume_RAID_Information>
   </Windows_Volume_RAID_Information>
