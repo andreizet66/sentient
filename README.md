@@ -30,7 +30,7 @@
 
 ---
 
-## 🧩 Features
+<h2 align="center">🧩 Features</h2>
 
 * Real-time drive **usage**, **status**, **health**, and **temperature**.
 * **SMART** data reports and historical temperature and health **charts**.
