@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="imgur" width="30%" alt="Sentient Logo" />
+</p>
+
 <h1 align="center">Sentient</h1>
 
 <p align="center">
