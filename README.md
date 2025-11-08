@@ -1,7 +1,12 @@
-<h1 style="text-align: center;">Sentient</h1>
+<p align="center">
+  <h1>Sentient</h1>
+</p>
 
-Sentient is a lightweight web interface that visualizes data exported from **HDD Sentinel**.  
-It's built with **FastAPI + React (Vite)** and themed to look like a classic green-phosphor CRT terminal.
+<p align="center">
+  Sentient is a lightweight web interface that visualizes data exported from <strong>HDD Sentinel</strong>.<br>
+  It's built with <strong>FastAPI + React (Vite)</strong> and themed to look like a classic green-phosphor CRT terminal.
+</p>
+
 
 <p align="center">
   <img src="https://i.imgur.com/uP00kSp.gif" width="100%" alt="Sentient WebUI - Desktop View" />
