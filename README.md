@@ -76,101 +76,107 @@
 
 ---
 
-
 <h3 align="center">🎨 Color-Coded Warnings</h3>
 
 <h3 align="center">💚 Health Thresholds</h3>
 
-<p align="center">
-  <table style="margin: 0 auto; text-align: center;">
-    <tr>
-      <th>Condition</th>
-      <th>Health %</th>
-      <th>Color</th>
-      <th>Behavior</th>
-    </tr>
-    <tr>
-      <td>🟩 <strong>Good</strong></td>
-      <td><code>≥ 100%</code></td>
-      <td>Green <code>#00ff80</code></td>
-      <td>Static</td>
-    </tr>
-    <tr>
-      <td>🟨 <strong>Warning</strong></td>
-      <td><code>80%–99%</code></td>
-      <td>Yellow <code>#ffff66</code></td>
-      <td>Soft yellow pulsing glow</td>
-    </tr>
-    <tr>
-      <td>🟥 <strong>Critical</strong></td>
-      <td><code>&lt; 80%</code></td>
-      <td>Red <code>#ff4040</code></td>
-      <td>Soft red pulsing glow</td>
-    </tr>
-  </table>
-</p>
+<div align="center">
+
+<table>
+  <tr>
+    <th>Condition</th>
+    <th>Health %</th>
+    <th>Color</th>
+    <th>Behavior</th>
+  </tr>
+  <tr>
+    <td>🟩 <strong>Good</strong></td>
+    <td><code>≥ 100%</code></td>
+    <td>Green <code>#00ff80</code></td>
+    <td>Static</td>
+  </tr>
+  <tr>
+    <td>🟨 <strong>Warning</strong></td>
+    <td><code>80%–99%</code></td>
+    <td>Yellow <code>#ffff66</code></td>
+    <td>Soft yellow pulsing glow</td>
+  </tr>
+  <tr>
+    <td>🟥 <strong>Critical</strong></td>
+    <td><code>&lt; 80%</code></td>
+    <td>Red <code>#ff4040</code></td>
+    <td>Soft red pulsing glow</td>
+  </tr>
+</table>
+
+</div>
 
 <h3 align="center">🌡️ Temperature Thresholds</h3>
 
-<p align="center">
-  <table style="margin: 0 auto; text-align: center;">
-    <tr>
-      <th>Condition</th>
-      <th>Temp °C</th>
-      <th>Color</th>
-      <th>Behavior</th>
-    </tr>
-    <tr>
-      <td>🟩 <strong>Normal</strong></td>
-      <td><code>≤ 40°C</code></td>
-      <td>Green <code>#00ff80</code></td>
-      <td>Static</td>
-    </tr>
-    <tr>
-      <td>🟨 <strong>Warm</strong></td>
-      <td><code>&gt; 40°C &amp; ≤ 55°C</code></td>
-      <td>Yellow <code>#ffff66</code></td>
-      <td>Soft yellow pulsing glow</td>
-    </tr>
-    <tr>
-      <td>🟥 <strong>Hot</strong></td>
-      <td><code>&gt; 55°C</code></td>
-      <td>Red <code>#ff4040</code></td>
-      <td>Soft red pulsing glow</td>
-    </tr>
-  </table>
-</p>
+<div align="center">
+
+<table>
+  <tr>
+    <th>Condition</th>
+    <th>Temp °C</th>
+    <th>Color</th>
+    <th>Behavior</th>
+  </tr>
+  <tr>
+    <td>🟩 <strong>Normal</strong></td>
+    <td><code>≤ 40°C</code></td>
+    <td>Green <code>#00ff80</code></td>
+    <td>Static</td>
+  </tr>
+  <tr>
+    <td>🟨 <strong>Warm</strong></td>
+    <td><code>&gt; 40°C &amp; ≤ 55°C</code></td>
+    <td>Yellow <code>#ffff66</code></td>
+    <td>Soft yellow pulsing glow</td>
+  </tr>
+  <tr>
+    <td>🟥 <strong>Hot</strong></td>
+    <td><code>&gt; 55°C</code></td>
+    <td>Red <code>#ff4040</code></td>
+    <td>Soft red pulsing glow</td>
+  </tr>
+</table>
+
+</div>
 
 <h3 align="center">💾 Usage Bar Thresholds</h3>
 
-<p align="center">
-  <table style="margin: 0 auto; text-align: center;">
-    <tr>
-      <th>Condition</th>
-      <th>Used %</th>
-      <th>Color</th>
-      <th>Behavior</th>
-    </tr>
-    <tr>
-      <td>🟩 <strong>Healthy Capacity</strong></td>
-      <td><code>&lt; 70%</code></td>
-      <td>Green <code>#00ff80</code></td>
-      <td>Static</td>
-    </tr>
-    <tr>
-      <td>🟨 <strong>Moderate</strong></td>
-      <td><code>70%–89%</code></td>
-      <td>Yellow <code>#ffff66</code></td>
-      <td>Static</td>
-    </tr>
-    <tr>
-      <td>🟥 <strong>Full / Risk</strong></td>
-      <td><code>≥ 90%</code></td>
-      <td>Red <code>#ff4040</code></td>
-      <td>Static</td>
-    </tr>
-  </table>
-</p>
+<div align="center">
+
+<table>
+  <tr>
+    <th>Condition</th>
+    <th>Used %</th>
+    <th>Color</th>
+    <th>Behavior</th>
+  </tr>
+  <tr>
+    <td>🟩 <strong>Healthy Capacity</strong></td>
+    <td><code>&lt; 70%</code></td>
+    <td>Green <code>#00ff80</code></td>
+    <td>Static</td>
+  </tr>
+  <tr>
+    <td>🟨 <strong>Moderate</strong></td>
+    <td><code>70%–89%</code></td>
+    <td>Yellow <code>#ffff66</code></td>
+    <td>Static</td>
+  </tr>
+  <tr>
+    <td>🟥 <strong>Full / Risk</strong></td>
+    <td><code>≥ 90%</code></td>
+    <td>Red <code>#ff4040</code></td>
+    <td>Static</td>
+  </tr>
+</table>
+
+</div>
+
 
 
 ---
