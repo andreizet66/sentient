@@ -10,6 +10,15 @@
   It's built with <strong>FastAPI + React (Vite)</strong> and themed to look like a classic green-phosphor CRT terminal.
 </p>
 
+<p align="center">
+
+  <a href="https://github.com/andreizet66/sentient?tab=readme-ov-file#%E2%80%8D%EF%B8%8F-what-is-sentient-and-why-does-it-exist">🧠 What is Sentient</a> •
+  <a href="https://github.com/andreizet66/sentient?tab=readme-ov-file#-features">🧩 Features</a> •
+  <a href="https://github.com/andreizet66/sentient?tab=readme-ov-file#%EF%B8%8F-installation">⚙️ Installation</a> •
+  <a href="https://github.com/andreizet66/sentient?tab=readme-ov-file#%EF%B8%8F-usage">▶️ Usage</a> •
+  <a href="https://github.com/andreizet66/sentient?tab=readme-ov-file#%EF%B8%8F%E2%80%8D-known-limitations">❤️‍🩹 Known Limitations</a>
+
+</p>
 
 ---
 
