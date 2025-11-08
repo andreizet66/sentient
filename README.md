@@ -6,11 +6,6 @@
 </p>
 
 
-
-<p align="center">
-  <img src="https://i.imgur.com/uP00kSp.gif" width="100%" alt="Sentient WebUI - Desktop View" />
-</p>
-
 ---
 
 <!-- Desktop Section -->
