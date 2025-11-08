@@ -3,26 +3,26 @@
 Sentient is a lightweight web interface that visualizes data exported from **HDD Sentinel**.  
 It's built with **FastAPI + React (Vite)** and themed to look like a classic green-phosphor CRT terminal.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://i.imgur.com/uP00kSp.gif" width="100%" alt="Sentient WebUI - Desktop View" />
-</div>
+</p>
 
 ---
 
 <!-- Desktop Section -->
 <h2 style="text-align: center;">🖥️ Desktop Preview</h2>
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://i.imgur.com/q05Ecgw.jpeg" width="90%" alt="Sentient WebUI - Desktop View" />
-</div>
+</p>
 
 <!-- Tablet & Mobile Section -->
 <h2 style="text-align: center;">📱 Tablet and Mobile Preview</h2>
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://i.imgur.com/El6zqoQ.jpeg" width="50%" style="margin-right: 10px;" alt="Sentient WebUI - Tablet View" />
   <img src="https://i.imgur.com/sruPsem.png" width="31.4%" alt="Sentient WebUI - Mobile View" />
-</div>
+</p>
 
 ---
 
@@ -42,7 +42,6 @@ It's built with **FastAPI + React (Vite)** and themed to look like a classic gre
 
 <h2 style="text-align: center;">💾 Drive Cards</h2>
 
-
 <p style="text-align: left; max-width: 800px; margin: 0 auto; line-height: 1.6;">
   <strong>Sentient</strong> displays drives in the form of <strong>Drive Cards</strong>.  
   There are four types of cards, each showing custom information depending on their role:
@@ -55,54 +54,54 @@ It's built with **FastAPI + React (Vite)** and themed to look like a classic gre
 
 <h3 style="text-align: center;">System Drive and Simple Cards</h3>
 
-<div style="text-align: center; margin-top: 10px;">
+<p align="center">
   <img src="https://i.imgur.com/ZJmOGBA.png" width="38%" style="margin-right: 10px;" alt="Sentient WebUI - System Drive Card" />
   <img src="https://i.imgur.com/kT9ZPxV.png" width="43.6%" alt="Sentient WebUI - Simple Drive Card" />
-</div>
+</p>
 
 <h3 style="text-align: center;">Storage Pool and Pooled Drive Cards</h3>
 
-<div style="text-align: center; margin-top: 10px;">
+<p align="center">
   <img src="https://i.imgur.com/CKvKqif.png" width="53.8%" style="margin-right: 10px;" alt="Sentient WebUI - Storage Pool Card" />
   <img src="https://i.imgur.com/kwqY6bz.png" width="38%" alt="Sentient WebUI - Pooled Drive Card" />
-</div>
+</p>
 
 ---
 
-<h3 style="text-align: center;"> 🎨 Color-Coded Warnings </h3>
+<h3 style="text-align: center;">🎨 Color-Coded Warnings</h3>
 
 <h3 style="text-align: center;">💚 Health thresholds</h3>
 
-<div style="text-align: center;">
+<p align="center">
   <table style="margin: 0 auto; text-align: center;">
     <tr><th>Condition</th><th>Health %</th><th>Color</th><th>Behavior</th></tr>
     <tr><td>🟩 <strong>Good</strong></td><td><code>≥ 100%</code></td><td>Green <code>#00ff80</code></td><td>Static</td></tr>
     <tr><td>🟨 <strong>Warning</strong></td><td><code>80%–99%</code></td><td>Yellow <code>#ffff66</code></td><td>Soft yellow pulsing glow</td></tr>
     <tr><td>🟥 <strong>Critical</strong></td><td><code>&lt; 80%</code></td><td>Red <code>#ff4040</code></td><td>Soft red pulsing glow</td></tr>
   </table>
-</div>
+</p>
 
 <h3 style="text-align: center;">🌡️ Temperature thresholds</h3>
 
-<div style="text-align: center;">
+<p align="center">
   <table style="margin: 0 auto; text-align: center;">
     <tr><th>Condition</th><th>Temp °C</th><th>Color</th><th>Behavior</th></tr>
     <tr><td>🟩 <strong>Normal</strong></td><td><code>≤ 40°C</code></td><td>Green <code>#00ff80</code></td><td>Static</td></tr>
     <tr><td>🟨 <strong>Warm</strong></td><td><code>&gt; 40°C &amp; ≤ 55°C</code></td><td>Yellow <code>#ffff66</code></td><td>Soft yellow pulsing glow</td></tr>
     <tr><td>🟥 <strong>Hot</strong></td><td><code>&gt; 55°C</code></td><td>Red <code>#ff4040</code></td><td>Soft red pulsing glow</td></tr>
   </table>
-</div>
+</p>
 
 <h3 style="text-align: center;">💾 Usage bar thresholds</h3>
 
-<div style="text-align: center;">
+<p align="center">
   <table style="margin: 0 auto; text-align: center;">
     <tr><th>Condition</th><th>Used %</th><th>Color</th><th>Behavior</th></tr>
     <tr><td>🟩 <strong>Healthy capacity</strong></td><td><code>&lt; 70%</code></td><td>Green <code>#00ff80</code></td><td>Static</td></tr>
     <tr><td>🟨 <strong>Moderate</strong></td><td><code>70%–89%</code></td><td>Yellow <code>#ffff66</code></td><td>Static</td></tr>
     <tr><td>🟥 <strong>Full / Risk</strong></td><td><code>≥ 90%</code></td><td>Red <code>#ff4040</code></td><td>Static</td></tr>
   </table>
-</div>
+</p>
 
 ---
 
