@@ -33,16 +33,18 @@
 <h2 align="center">🧩 Features</h2>
 
 <p align="center">
-* Real-time drive **usage**, **status**, **health**, and **temperature**.
-* **SMART** data reports and historical temperature and health **charts**.
-* **Color-coded animated warnings** for health, temperature, and storage usage.
-* Persistent **renaming** and **hiding** of drives.
-* **Full Windows Storage Spaces support** (used and available pool **space** and **drives** included).
-* Self-contained backend + frontend — installs dependencies and runs with **two Python scripts**.
-* Supports **HDDs** and **SSDs**.
-* Displays **last WebUI update** and **last HDD Sentinel data export**.
-* Smooth animations and transitions.
+  • Real-time drive <strong>usage</strong>, <strong>status</strong>, <strong>health</strong>, and <strong>temperature</strong>.<br>
+  • <strong>SMART</strong> data reports and historical temperature and health <strong>charts</strong>.<br>
+  • <strong>Color-coded animated warnings</strong> for health, temperature, and storage usage.<br>
+  • Persistent <strong>renaming</strong> and <strong>hiding</strong> of drives.<br>
+  • <strong>Full Windows Storage Spaces support</strong> (used and available pool <strong>space</strong> and <strong>drives</strong> included).<br>
+  • Self-contained backend + frontend — installs dependencies and runs with <strong>two Python scripts</strong>.<br>
+  • Supports <strong>HDDs</strong> and <strong>SSDs</strong>.<br>
+  • Displays <strong>last WebUI update</strong> and <strong>last HDD Sentinel data export</strong>.<br>
+  • Smooth animations and transitions.
 </p>
+
+
 
 ---
 
