@@ -32,6 +32,7 @@
 
 <h2 align="center">🧩 Features</h2>
 
+<p align="center">
 * Real-time drive **usage**, **status**, **health**, and **temperature**.
 * **SMART** data reports and historical temperature and health **charts**.
 * **Color-coded animated warnings** for health, temperature, and storage usage.
@@ -41,6 +42,7 @@
 * Supports **HDDs** and **SSDs**.
 * Displays **last WebUI update** and **last HDD Sentinel data export**.
 * Smooth animations and transitions.
+</p>
 
 ---
 
