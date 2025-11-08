@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://i.imgur.com/B3rHZjZ.png" width="30%" alt="Sentient Logo" />
+  <img src="https://i.imgur.com/B3rHZjZ.png" width="25%" alt="Sentient Logo" />
 </p>
 
 <h1 align="center">Sentient</h1>
