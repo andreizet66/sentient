@@ -14,14 +14,14 @@
 ---
 
 <!-- Desktop Section -->
-<h2 style="text-align: center;">🖥️ Desktop Preview</h2>
+<h2 align="center">🖥️ Desktop Preview</h2>
 
 <p align="center">
   <img src="https://i.imgur.com/q05Ecgw.jpeg" width="90%" alt="Sentient WebUI - Desktop View" />
 </p>
 
 <!-- Tablet & Mobile Section -->
-<h2 style="text-align: center;">📱 Tablet and Mobile Preview</h2>
+<h2 align="center">📱 Tablet and Mobile Preview</h2>
 
 <p align="center">
   <img src="https://i.imgur.com/El6zqoQ.jpeg" width="50%" style="margin-right: 10px;" alt="Sentient WebUI - Tablet View" />
@@ -44,7 +44,7 @@
 
 ---
 
-<h2 style="text-align: center;">💾 Drive Cards</h2>
+<h2 align="center">💾 Drive Cards</h2>
 
 <p style="text-align: left; max-width: 800px; margin: 0 auto; line-height: 1.6;">
   <strong>Sentient</strong> displays drives in the form of <strong>Drive Cards</strong>.  
@@ -56,14 +56,14 @@
   (4) <strong>Pooled Drive Cards</strong> – Same as the Simple Cards, minus the drive letter (pooled drives do not get drive letters allocated by Windows).
 </p>
 
-<h3 style="text-align: center;">System Drive and Simple Cards</h3>
+<h3 align="center">System Drive and Simple Cards</h3>
 
 <p align="center">
   <img src="https://i.imgur.com/ZJmOGBA.png" width="38%" style="margin-right: 10px;" alt="Sentient WebUI - System Drive Card" />
   <img src="https://i.imgur.com/kT9ZPxV.png" width="43.6%" alt="Sentient WebUI - Simple Drive Card" />
 </p>
 
-<h3 style="text-align: center;">Storage Pool and Pooled Drive Cards</h3>
+<h3 align="center">Storage Pool and Pooled Drive Cards</h3>
 
 <p align="center">
   <img src="https://i.imgur.com/CKvKqif.png" width="53.8%" style="margin-right: 10px;" alt="Sentient WebUI - Storage Pool Card" />
@@ -71,6 +71,7 @@
 </p>
 
 ---
+
 
 <h3 style="text-align: center;">🎨 Color-Coded Warnings</h3>
 
