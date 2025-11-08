@@ -250,7 +250,7 @@ mkdir latest_xml
 
 1. In HDD Sentinel, open **Configuration → Advanced Options**
 
-   <p align="center"><img src="https://i.imgur.com/Uy2ie6d.png" width="500" /></p>
+   <p align="left"><img src="https://i.imgur.com/Uy2ie6d.png" width="500" /></p>
 
 2. In the **Configuration** window:
 
@@ -258,9 +258,11 @@ mkdir latest_xml
    * Check `Generate and update XML file`.
    * Click **Select**.
 
-   <p align="center"><img src="https://i.imgur.com/Vwrn3Sf.png" width="500" /></p>
+   <p align="left"><img src="https://i.imgur.com/Vwrn3Sf.png" width="500" /></p>
 
 3. In the **Save As** window, navigate to your cloned `sentient` folder, choose the `latest_xml` directory, and save the file as `latest.xml`.
+
+   <p align="left"><img src=https://i.imgur.com/rPK2KPp.png" width="500" /></p>
 
    * You **must** name the file `latest.xml`, or it will be ignored.
    * You **must** include the `.xml` extension — sometimes HDD Sentinel omits it.
