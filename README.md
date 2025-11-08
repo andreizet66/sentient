@@ -1,11 +1,10 @@
-<p align="center">
-  <h1>Sentient</h1>
-</p>
+<h1 align="center">Sentient</h1>
 
 <p align="center">
   Sentient is a lightweight web interface that visualizes data exported from <strong>HDD Sentinel</strong>.<br>
   It's built with <strong>FastAPI + React (Vite)</strong> and themed to look like a classic green-phosphor CRT terminal.
 </p>
+
 
 
 <p align="center">
