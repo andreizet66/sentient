@@ -221,7 +221,7 @@ So, in short:
 
 ### With one exception 👇
 
-Since most of the users will set HDD Sentinel export intervals to 1h and since all of us want to know what used and available space is on our drives *now*, not one hour ago, **Sentient** leverages `shutil` to provide real time updates (no page refresh needed) on storsge space availability. 
+Since most of the users will set HDD Sentinel export intervals to 1h and since all of us want to know what used and available space is on our drives *now*, not one hour ago, **Sentient** leverages `shutil` to provide real time updates (no page refresh needed) on storage space availability. 
 
 ```
 def _bytes_from_drive(drive_letter: str) -> Tuple[Optional[int], Optional[int]]:
