@@ -218,6 +218,24 @@ So, in short:
 | **Backend (API)** | **FastAPI (Python)** | Reads HDD Sentinel XML → parses data → exposes it via endpoints (e.g., `/drives`, `/history`) | `main.py` |
 | **Frontend (WebUI)** | **React (JavaScript/JSX)** | Fetches data from FastAPI → displays cards, graphs, buttons, animations, etc. | `App.jsx`, `App.css`, plus components in `/src/` |
 
+### With one exception 👇
+
+Since most of the users will set HDD Sentinel export intervals to 1h and since all of us want to know whst the used and available storage is on our drives *now*, not one hour ago, **Sentient** leverages `shutil` to provide real time updates (no page refresh needed) on storsge space availability. 
+
+```
+def _bytes_from_drive(drive_letter: str) -> Tuple[Optional[int], Optional[int]]:
+    try:
+        import shutil
+        root = drive_letter
+        if not drive_letter.endswith("\\"):
+            root = drive_letter + "\\"
+        usage = shutil.disk_usage(root)
+        return usage.total, usage.free
+    except Exception:
+        return None, None
+```
+
+
 ### Who Is It For?
 
 Mostly for myself.
