@@ -44,6 +44,7 @@
 <p align="center">
   • Real-time drive <strong>usage</strong>, <strong>status</strong>, <strong>health</strong>, and <strong>temperature</strong>.<br>
   • <strong>SMART</strong> data reports and historical temperature and health <strong>charts</strong>.<br>
+    • <strong>Real time storage availability updates</strong>, no page refresh needed.<br>
   • <strong>Color-coded animated warnings</strong> for health, temperature, and storage usage.<br>
   • Persistent <strong>renaming</strong> and <strong>hiding</strong> of drives.<br>
   • <strong>Full Windows Storage Spaces support</strong> (used and available pool <strong>space</strong> and <strong>drives</strong> included).<br>
